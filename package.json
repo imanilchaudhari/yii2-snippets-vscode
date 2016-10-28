@@ -1,0 +1,81 @@
+{
+	"name": "yii2-snippets",
+	"displayName": "Yii2 Snippets",
+	"description": "Yii2 snippets for Visual Studio Code",
+	"version": "0.1",
+	"publisher": "imanilchaudhari",
+	"author": {
+		"name": "Anil Chaudhari",
+		"email": "caanil90@gmail.com",
+		"url": "https://anilcodes.com"
+	},
+	"homepage": "https://github.com/imanilchaudhari/yii2-snippets-vscode",
+	"bugs": {
+		"url": "https://github.com/imanilchaudhari/yii2-snippets-vscode/issues"
+	},
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"keywords": [
+		"yii2",
+		"snippet",
+    "yii2 snippets
+	],
+	"icon": "images/icon.png",
+	"galleryBanner": {
+		"color": "#f66f62",
+		"theme": "dark"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "php",
+				"path": "./snippets/db.json"
+			},
+			{
+				"language": "php",
+				"path": "./snippets/helper.json"
+			},
+			{
+				"language": "php",
+				"path": "./snippets/log.json"
+			},
+			{
+				"language": "php",
+				"path": "./snippets/mail.json"
+			},
+			{
+				"language": "php",
+				"path": "./snippets/request.json"
+			},
+			{
+				"language": "php",
+				"path": "./snippets/response.json"
+			},
+			{
+				"language": "php",
+				"path": "./snippets/url.json"
+			},
+			{
+				"language": "php",
+				"path": "./snippets/schema.json"
+			},
+			{
+				"language": "php",
+				"path": "./snippets/session.json"
+			},
+			{
+				"language": "php",
+				"path": "./snippets/view.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "",
+		"publisherId": "",
+		"publisherDisplayName": "Anil Chaudhari"
+	}
+}
