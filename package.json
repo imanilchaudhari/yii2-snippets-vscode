@@ -1,7 +1,7 @@
 {
     "name": "yii2-snippets",
     "displayName": "Yii2 Snippets",
-    "description": "",
+    "description": "Yii2 snippets for Visual Studio Code",
     "version": "0.0.1",
     "publisher": "imanilchaudhari",
     "keywords": [
@@ -32,11 +32,31 @@
         "snippets": [
             {
                 "language": "php",
+                "path": "./snippets/yii.json"
+            },            
+            {
+                "language": "php",
+                "path": "./snippets/helpers/array.json"
+            },
+            {
+                "language": "php",
                 "path": "./snippets/helpers/html.json"
             },
             {
                 "language": "php",
+                "path": "./snippets/helpers/json.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/helpers/string.json"
+            },
+            {
+                "language": "php",
                 "path": "./snippets/helpers/url.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/helpers/var_dumper.json"
             }
         ]
     },

@@ -1,0 +1,57 @@
+{
+	"StringHelper::basename": {
+		"prefix": "StringHelper::basename",
+		"body": "StringHelper::basename(${$path}, ${$suffix = ''})",
+		"description": "Returns the trailing name component of a path."
+	},
+    "StringHelper::byteLength": {
+		"prefix": "StringHelper::byteLength",
+		"body": "StringHelper::byteLength(${$string})",
+		"description": "Returns the number of bytes in the given string."
+	},
+    "StringHelper::byteSubstr": {
+		"prefix": "StringHelper::byteSubstr",
+		"body": "StringHelper::byteSubstr(${$string}, ${$start}, ${$length = null})",
+		"description": "Returns the portion of string specified by the start and length parameters."
+	},
+    "StringHelper::countWords": {
+		"prefix": "StringHelper::countWords",
+		"body": "StringHelper::countWords(${$string})",
+		"description": "Counts words in a string"
+	},
+    "StringHelper::dirname": {
+		"prefix": "StringHelper::dirname",
+		"body": "StringHelper::dirname(${$path})",
+		"description": "Returns parent directory's path."
+	},
+    "StringHelper::endsWith": {
+		"prefix": "StringHelper::endsWith",
+		"body": "StringHelper::endsWith(${$path})",
+		"description": "Check if given string ends with specified substring."
+	},
+    "StringHelper::explode": {
+		"prefix": "StringHelper::explode",
+		"body": "StringHelper::explode(${$string, ${$delimiter = ','}, ${$trim = true}, ${$skipEmpty = false})",
+		"description": "Explodes string into array, optionally trims values and skips empty ones"
+	},
+    "StringHelper::startsWith": {
+		"prefix": "StringHelper::startsWith",
+		"body": "StringHelper::startsWith(${$string}, ${$with}, ${$caseSensitive = true})",
+		"description": "Check if given string starts with specified substring."
+	},
+    "StringHelper::truncate": {
+		"prefix": "StringHelper::truncate",
+		"body": "StringHelper::truncate(${$string}, ${$with}, ${$caseSensitive = true})",
+		"description": "Truncates a string to the number of characters specified."
+	},
+    "StringHelper::truncateHtml": {
+		"prefix": "StringHelper::truncateHtml",
+		"body": "StringHelper::truncateHtml(${$string}, ${$count}, ${$suffix}, ${$encoding = false})",
+		"description": "Truncate a string while preserving the HTML."
+	},
+    "StringHelper::truncateWords": {
+		"prefix": "StringHelper::truncateWords",
+		"body": "StringHelper::truncateWords(${$string}, ${$count}, ${$suffix = '...'}, ${$asHtml = false})",
+		"description": "Truncates a string to the number of words specified."
+	}
+}

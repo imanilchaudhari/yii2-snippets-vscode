@@ -1,0 +1,17 @@
+{
+	"VarDumper::dump": {
+		"prefix": "VarDumper::dump",
+		"body": "VarDumper::dump( ${$var}, ${$depth = 10}, ${$highlight = false})",
+		"description": "Displays a variable."
+	},
+	"VarDumper::dumpAsString()": {
+		"prefix": "VarDumper::dumpAsString()",
+		"body": "VarDumper::dump( ${$var}, ${$depth = 10}, ${$highlight = false})",
+		"description": "Returns the values of a specified column in an array."
+	},
+	"VarDumper::export": {
+		"prefix": "VarDumper::export",
+		"body": "VarDumper::export(${$var})",
+		"description": "Exports a variable as a string representation."
+	}
+}

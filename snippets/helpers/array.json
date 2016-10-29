@@ -1,0 +1,87 @@
+{
+	"ArrayHelper::filter": {
+		"prefix": "ArrayHelper::filter",
+		"body": "ArrayHelper::filter(${$array}, ${$filters})",
+		"description": "Filters array according to rules specified."
+	},
+	"ArrayHelper::getColumn()": {
+		"prefix": "ArrayHelper::getColumn()",
+		"body": "ArrayHelper::getColumn()(${$array},${$name}, ${$keepKeys = true})",
+		"description": "Returns the values of a specified column in an array."
+	},
+	"ArrayHelper::getValue": {
+		"prefix": "ArrayHelper::getValue",
+		"body": "ArrayHelper::getValue(${$array},${$key}, ${$default = null})",
+		"description": "Retrieves the value of an array element or object property with the given key or property name."
+	},
+	"ArrayHelper::htmlDecode()": {
+		"prefix": "ArrayHelper::htmlDecode()",
+		"body": "ArrayHelper::htmlDecode()(${$data}, ${$valuesOnly = true})",
+		"description": "Decodes HTML entities into the corresponding characters in an array of strings."
+	},
+	"ArrayHelper::htmlEncode()": {
+		"prefix": "ArrayHelper::htmlEncode()",
+		"body": "ArrayHelper::htmlEncode()(${$data}, ${$valuesOnly = true}, ${$charset = null})",
+		"description": "Encodes HTML entities into the corresponding characters in an array of strings."
+	},
+	"ArrayHelper::index()": {
+		"prefix": "ArrayHelper::index()",
+		"body": "ArrayHelper::index()(${$array}, ${function($element){}})",
+		"description": "Indexes and/or groups the array according to a specified key."
+	},
+	"ArrayHelper::isAssociative()": {
+		"prefix": "ArrayHelper::isAssociative()",
+		"body": "ArrayHelper::isAssociative()(${$array}, ${$allstring = true})",
+		"description": "Returns a value indicating whether the given array is an associative array."
+	},
+	"ArrayHelper::isIn()": {
+		"prefix": "ArrayHelper::isIn()",
+		"body": "ArrayHelper::isIn()(${$needle}, ${$haystack}, ${$strict = false})",
+		"description": "Check whether an array or Traversable contains an element."
+	},
+	"ArrayHelper::isIndexed()": {
+		"prefix": "ArrayHelper::isIndexed()",
+		"body": "ArrayHelper::isIndexed()(${$array}, ${$consecutive = false})",
+		"description": "Returns a value indicating whether the given array is an indexed array."
+	},
+	"ArrayHelper::isSubset()": {
+		"prefix": "ArrayHelper::isSubset()",
+		"body": "ArrayHelper::isSubset()(${$needle}, ${$haystack}, ${$strict = false})",
+		"description": "Checks whether an array or Traversable is a subset of another array or Traversable."
+	},
+	"ArrayHelper::isTraversable()": {
+		"prefix": "ArrayHelper::isTraversable()",
+		"body": "ArrayHelper::isTraversable()(${$var})",
+		"description": "Checks whether a variable is an array or Traversable."
+	},
+	"ArrayHelper::keyExists()": {
+		"prefix": "ArrayHelper::keyExists()",
+		"body": "ArrayHelper::keyExists()(${$key}, ${$array}, ${$caseSensitive = true})",
+		"description": "Checks if the given array contains the specified key."
+	},
+	"ArrayHelper::map()": {
+		"prefix": "ArrayHelper::map()",
+		"body": "ArrayHelper::map()(${$array}, ${$from},${$to}, ${$group = null})",
+		"description": "Builds a map (key-value pairs) from a multidimensional array or an array of objects."
+	},
+	"ArrayHelper::merge()": {
+		"prefix": "ArrayHelper::merge()",
+		"body": "ArrayHelper::merge()(${$a}, ${$b})",
+		"description": "Merges two or more arrays into one recursively."
+	},
+	"ArrayHelper::multisort()": {
+		"prefix": "ArrayHelper::multisort()",
+		"body": "ArrayHelper::multisort()(${&$array}, ${$key}, ${$direction = SORT_ASC}, ${$sortFlf = SORT_REGULAR})",
+		"description": "Sorts an array of objects or arrays (with the same structure) by one or several keys."
+	},
+	"ArrayHelper::remove()": {
+		"prefix": "ArrayHelper::remove()",
+		"body": "ArrayHelper::remove()(${&$array}, ${$key}, ${$default = null})",
+		"description": "Removes an item from an array and returns the value. If the key does not exist in the array, the default value will be returned instead."
+	},
+	"ArrayHelper::toArray()": {
+		"prefix": "ArrayHelper::toArray()",
+		"body": "ArrayHelper::toArray()(${$options}, ${$properties = []}, ${$recursive = true})",
+		"description": "Converts an object or an array of objects into an array."
+	}
+}
