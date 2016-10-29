@@ -1,0 +1,7 @@
+{
+	"Html::a": {
+		"prefix": "Html::a",
+		"body": "Html::a('${anchor}', \\yii\\helpers\\Url::to(['${url}']), ${options:[]})",
+		"description": "Creates an anchor tag."
+	}
+}

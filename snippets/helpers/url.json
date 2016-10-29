@@ -1,0 +1,7 @@
+{
+	"Url::to": {
+		"prefix": "Url::to",
+		"body": "Url::to('${url}', ${schema:[]})",
+		"description": "Creates an url tag."
+	}
+}

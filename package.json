@@ -1,0 +1,48 @@
+{
+    "name": "yii2-snippets",
+    "displayName": "Yii2 Snippets",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "imanilchaudhari",
+    "keywords": [
+        "yii2",
+        "snippet"
+    ],
+    "author": {
+        "name": "Anil Chaudhari",
+        "email": "caanil90@hotmail.com",
+        "url": "https://anilcodes.com"
+    },
+    "homepage": "https://github.com/imanilchaudhari/yii2-snippets-vscode",
+    "bugs": {
+        "url": "https://github.com/imanilchaudhari/yii2-snippets-vscode/issues"
+    },
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "icon": "images/icon.png",
+    "galleryBanner": {
+        "color": "#1E81C1",
+        "theme": "light"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "php",
+                "path": "./snippets/helpers/html.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/helpers/url.json"
+            }
+        ]
+    },
+    "__metadata": {
+        "id": "",
+        "publisherId": "",
+        "publisherDisplayName": "Anil Chaudhari"
+    }
+}
