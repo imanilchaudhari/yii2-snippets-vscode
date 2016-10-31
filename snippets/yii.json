@@ -2,7 +2,7 @@
 	"Yii::$app": {
 		"prefix": "Yii::$app",
 		"body": "Yii::$app->",
-		"description": "Yii app."
+		"description": "Get Yii app instances."
 	},
 	"Yii::autoload": {
 		"prefix": "Yii::autoload",

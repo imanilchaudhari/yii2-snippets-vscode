@@ -2,7 +2,7 @@
     "name": "yii2-snippets",
     "displayName": "Yii2 Snippets",
     "description": "Yii2 snippets for Visual Studio Code",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "imanilchaudhari",
     "keywords": [
         "yii2",
@@ -41,11 +41,147 @@
             },
             {
                 "language": "php",
-                "path": "./snippets/helpers/array.json"
+                "path": "./snippets/behaviors/attribute.json"
             },
             {
                 "language": "php",
-                "path": "./snippets/helpers/file.json"
+                "path": "./snippets/behaviors/attribute-typecast.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/behaviors/blameable.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/behaviors/sluggable.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/behaviors/timestamp.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/data/active-data-provider.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/data/array-data-provider.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/data/pagination.json"
+            },{
+                "language": "php",
+                "path": "./snippets/data/sort.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/data/sql-data-provider.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/db/active-query.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/db/active-record.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/db/command.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/db/connection.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/db/migration.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/db/query.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/db/schema.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/db/transaction.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/di/container.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/di/instance.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/di/service-locator.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/filters/access-controll.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/filters/access-rule.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/filters/cors.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/filters/http-cache.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/filters/page-cache.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/filters/rate-limiter.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/filters/verb-filter.json"
+            },
+
+            {
+                "language": "php",
+                "path": "./snippets/grid/action-column.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/grid/checkbox-column.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/grid/data-column.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/grid/grid-view.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/grid/serial-column.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/helpers/array-helper.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/helpers/console.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/helpers/file-helper.json"
             },
             {
                 "language": "php",
@@ -53,11 +189,23 @@
             },
             {
                 "language": "php",
+                "path": "./snippets/helpers/html-purify.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/helpers/inflector.json"
+            },
+            {
+                "language": "php",
                 "path": "./snippets/helpers/json.json"
             },
             {
                 "language": "php",
-                "path": "./snippets/helpers/string.json"
+                "path": "./snippets/helpers/markdown.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/helpers/string-helper.json"
             },
             {
                 "language": "php",
@@ -65,7 +213,471 @@
             },
             {
                 "language": "php",
-                "path": "./snippets/helpers/var_dumper.json"
+                "path": "./snippets/helpers/var-dumper.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/i18n/formatter.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/i18n/i18n.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/log/db-target.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/log/email-target.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/log/file-target.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/log/logger.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/log/syslog-target.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/mutex/file-mutex.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/mutex/mysql-mutex.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/mutex/oracle-mutex.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/mutex/pgsql-mutex.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/rbac/assignments.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/rbac/db-manager.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/rbac/item.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/rbac/permission.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/rbac/php-manager.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/rbac/role.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/rbac/rule.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/rest/action.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/rest/active-controller.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/rest/controller.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/rest/create-action.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/rest/delete-action.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/rest/index-action.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/rest/serializer.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/rest/update-action.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/rest/url-rule.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/rest/view-action.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/test/active-fixture.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/test/array-fixture.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/test/fixture.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/test/init-db-fixture.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/validotors/boolean-validotors.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/validotors/compare-validotors.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/validotors/date-validotors.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/validotors/default-value-validotors.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/validotors/each-validotors.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/validotors/email-validotors.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/validotors/exists-validotors.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/validotors/file-validotors.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/validotors/filter-validotors.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/validotors/image-validotors.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/validotors/inline-validotors.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/validotors/ip-validotors.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/validotors/number-validotors.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/validotors/range-validotors.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/validotors/regular-expression-validotors.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/validotors/required-validotors.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/validotors/safe-validotors.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/validotors/string-validotors.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/validotors/unique-validotors.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/validotors/url-validotors.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/application.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/asset-bundle.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/asset-converter.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/asset-manager.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/bad-request-http-exception.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/cache-session.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/composite-url-rule.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/conflict-http-exception.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/controller.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/cookie.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/cookie-collection.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/db-session.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/error-action.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/error-handler.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/forbidden-http-exception.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/gone-http-exception.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/group-url-rule.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/header-collection.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/html-response-formatter.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/http-exception.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/js-expression.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/json-oarser.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/json-response-formatter.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/link.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/linkable.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/method-not-allowed-http-exception.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/multifield-session.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/multipart-formdata-parser.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/not-acceptable-http-exception.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/not-found-http-exception.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/request.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/response.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/server-error-http-exception.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/session.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/session-iteration.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/too-many-request-http-exception.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/unauthorised-http-exception.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/unprocessable-entity-http-exception.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/unsupported-media-type-http-exception.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/uploaded-file.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/url-manager.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/url-normalizer.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/url-normalizer-redirect-exception.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/url-rule.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/user.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/user-event.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/view.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/view-action.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/web/xml-response-formatter.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/widgets/active-field.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/widgets/active-form.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/widgets/block.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/widgets/breadcrumbs.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/widgets/content-decorator.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/widgets/detail-view.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/widgets/fragment-cache.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/widgets/input-widget.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/widgets/link-pager.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/widgets/link-sorter.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/widgets/list-view.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/widgets/masked-input.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/widgets/menu.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/widgets/pjax.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/widgets/apaceless.json"
             }
         ]
     },
