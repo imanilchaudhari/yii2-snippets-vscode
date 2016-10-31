@@ -1,4 +1,9 @@
 {
+	"Yii::$app": {
+		"prefix": "Yii::$app",
+		"body": "Yii::$app->",
+		"description": "Yii app."
+	},
 	"Yii::autoload": {
 		"prefix": "Yii::autoload",
 		"body": "Yii::autoload(${$clssName})",
@@ -76,7 +81,7 @@
 	},
 	"Yii::t": {
 		"prefix": "Yii::t",
-		"body": "Yii::t(${$category}, ${$message}, ${$params = []}, ${$language = null})",
+		"body": "Yii::t(${$category}, ${$message}, ${$params = []}, ${$language = null});",
 		"description": "Returns an HTML hyperlink that can be displayed on your Web page showing \"Powered by Yii Framework\" information."
 	},
 	"Yii::trace": {

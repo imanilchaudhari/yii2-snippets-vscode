@@ -1,127 +1,127 @@
 {
 	"Html::a": {
 		"prefix": "Html::a",
-		"body": "Html::a(${$text}, ${$url}, ${$options = []})",
+		"body": "Html::a(${$text}, ${$url}, ${$options = []})$3",
 		"description": "Generates a hyperlink tag."
 	},
 	"Html::activeBooleanInput": {
 		"prefix": "Html::activeBooleanInput",
-		"body": "Html::activeBooleanInput(${$type}, ${$model},  ${$attribute}, ${$options = []})",
+		"body": "Html::activeBooleanInput(${$type}, ${$model},  ${$attribute}, ${$options = []})$3",
 		"description": "Generates a boolean input This method is mainly called by activeCheckbox() and activeRadio()."
 	},
 	"Html::activeCheckbox": {
 		"prefix": "Html::activeCheckbox",
-		"body": "Html::activeCheckbox(${$model},  ${$attribute}, ${$options = []})",
+		"body": "Html::activeCheckbox(${$model},  ${$attribute}, ${$options = []})$3",
 		"description": "Generates a checkbox tag together with a label for the given model attribute."
 	},
 	"Html::activeCheckboxList": {
 		"prefix": "Html::activeCheckboxList",
-		"body": "Html::activeCheckboxList(${$model}, ${$attribute}, ${items}, ${$options = []})",
+		"body": "Html::activeCheckboxList(${$model}, ${$attribute}, ${items}, ${$options = []})$3",
 		"description": "Generates a list of checkboxes."
 	},
 	"Html::activeDropDownList": {
 		"prefix": "Html::activeDropDownList",
-		"body": "Html::activeDropDownList(${$model}, ${$attribute}, ${items}, ${$options = []})",
+		"body": "Html::activeDropDownList(${$model}, ${$attribute}, ${items}, ${$options = []})$3",
 		"description": "Generates a drop-down list for the given model attribute."
 	},
 	"Html::activeFileInput": {
 		"prefix": "Html::activeFileInput",
-		"body": "Html::activeFileInput(${$model}, ${$attribute}, ${$options = []})",
+		"body": "Html::activeFileInput(${$model}, ${$attribute}, ${$options = []})$3",
 		"description": "Generates a file input tag for the given model attribute."
 	},
 	"Html::activeHiddenInput": {
 		"prefix": "Html::activeHiddenInput",
-		"body": "Html::activeHiddenInput(${$model}, ${$attribute}, ${$options = []})",
+		"body": "Html::activeHiddenInput(${$model}, ${$attribute}, ${$options = []})$3",
 		"description": "Generates a hidden input tag for the given model attribute."
 	},
 	"Html::activeHint": {
 		"prefix": "Html::activeHint",
-		"body": "Html::activeHint(${$model}, ${$attribute}, ${$options = []})",
+		"body": "Html::activeHint(${$model}, ${$attribute}, ${$options = []})$3",
 		"description": "Generates a hint tag for the given model attribute."
 	},
 	"Html::activeInput": {
 		"prefix": "Html::activeInput",
-		"body": "Html::activeInput(${$type}, ${$model}, ${$attribute}, ${$options = []})",
+		"body": "Html::activeInput(${$type}, ${$model}, ${$attribute}, ${$options = []})$3",
 		"description": "Generates an input tag for the given model attribute."
 	},
 	"Html::activeLabel": {
 		"prefix": "Html::activeLabel",
-		"body": "Html::activeLabel(${$model}, ${$attribute}, ${$options = []})",
+		"body": "Html::activeLabel(${$model}, ${$attribute}, ${$options = []})$3",
 		"description": "Generates a label tag for the given model attribute."
 	},
 	"Html::activeListBox": {
 		"prefix": "Html::activeListBox",
-		"body": "Html::activeListBox(${$model}, ${$attribute}, ${$items}, ${$options = []})",
+		"body": "Html::activeListBox(${$model}, ${$attribute}, ${$items}, ${$options = []})$3",
 		"description": "Generates a list box."
 	},
 	"Html::activeListInput": {
 		"prefix": "Html::activeListInput",
-		"body": "Html::activeListInput(${$type}, ${$model}, ${$attribute}, ${$items}, ${$options = []})",
+		"body": "Html::activeListInput(${$type}, ${$model}, ${$attribute}, ${$items}, ${$options = []})$3",
 		"description": "Generates a list of input fields."
 	},
 	"Html::activePasswordInput": {
 		"prefix": "Html::activePasswordInput",
-		"body": "Html::activePasswordInput(${$model}, ${$attribute}, ${$options = []})",
+		"body": "Html::activePasswordInput(${$model}, ${$attribute}, ${$options = []})$3",
 		"description": "Generates a password input tag for the given model attribute."
 	},
 	"Html::activeRadio": {
 		"prefix": "Html::activeRadio",
-		"body": "Html::activeRadio(${$model}, ${$attribute}, ${$options = []})",
+		"body": "Html::activeRadio(${$model}, ${$attribute}, ${$options = []})$3",
 		"description": "Generates a radio button tag together with a label for the given model attribute."
 	},
 	"Html::activeRadioList": {
 		"prefix": "Html::activeRadioList",
-		"body": "Html::activeRadioList(${$model}, ${$attribute}, ${$items}, ${$options = []})",
+		"body": "Html::activeRadioList(${$model}, ${$attribute}, ${$items}, ${$options = []})$3",
 		"description": "Generates a list of radio buttons."
 	},
 	"Html::activeTextInput": {
 		"prefix": "Html::activeTextInput",
-		"body": "Html::activeTextInput(${$model}, ${$attribute}, ${$options = []})",
+		"body": "Html::activeTextInput(${$model}, ${$attribute}, ${$options = []})$3",
 		"description": "Generates a text input tag for the given model attribute."
 	},
 	"Html::activeTextarea": {
 		"prefix": "Html::activeTextarea",
-		"body": "Html::activeTextarea(${$model}, ${$attribute}, ${$options = []})",
+		"body": "Html::activeTextarea(${$model}, ${$attribute}, ${$options = []})$3",
 		"description": "Generates a textarea tag for the given model attribute."
 	},
 	"Html::addCssClass": {
 		"prefix": "Html::addCssClass",
-		"body": "Html::addCssClass(${&$options}, ${$class})",
+		"body": "Html::addCssClass(${&$options}, ${$class})$3",
 		"description": "Adds a CSS class (or several classes) to the specified options."
 	},
 	"Html::beginForm": {
 		"prefix": "Html::beginForm",
-		"body": "Html::beginForm(${$action = ''}, ${$method = 'post'}, ${$options = []})",
+		"body": "Html::beginForm(${$action = ''}, ${$method = 'post'}, ${$options = []})$3",
 		"description": "Generates a form start tag."
 	},
 	"Html::beginTag": {
 		"prefix": "Html::beginTag",
-		"body": "Html::beginTag(${$name}, ${$options = []})",
+		"body": "Html::beginTag(${$name}, ${$options = []})$3",
 		"description": "Generates a start tag."
 	},
 	"Html::booleanInput": {
 		"prefix": "Html::booleanInput",
-		"body": "Html::booleanInput(${$type}, ${$name}, ${$checked}, ${$options = []})",
+		"body": "Html::booleanInput(${$type}, ${$name}, ${$checked}, ${$options = []})$3",
 		"description": "Generates a boolean input."
 	},
 	"Html::button": {
 		"prefix": "Html::button",
-		"body": "Html::button(${$content = 'Button'}, ${$options = []})",
+		"body": "Html::button(${$content = 'Button'}, ${$options = []})$3",
 		"description": "Generates a boolean input."
 	},
 	"Html::buttonInput": {
 		"prefix": "Html::buttonInput",
-		"body": "Html::buttonInput(${$content = 'Button'}, ${$options = []})",
+		"body": "Html::buttonInput(${$content = 'Button'}, ${$options = []})$3",
 		"description": "Generates an input button."
 	},
 	"Html::checkbox": {
 		"prefix": "Html::checkbox",
-		"body": "Html::checkbox( ${$name}, ${$checked}, ${$options = []})",
+		"body": "Html::checkbox( ${$name}, ${$checked}, ${$options = []})$3",
 		"description": "Generates a checkbox input."
 	},
 	"Html::checkboxList": {
 		"prefix": "Html::checkboxList",
-		"body": "Html::checkboxList( ${$name}, ${$selection = null}, ${$items}, ${$options = []})",
+		"body": "Html::checkboxList( ${$name}, ${$selection = null}, ${$items}, ${$options = []})$3",
 		"description": "Generates a list of checkboxes."
 	},
 	"Html::csrfMetaTags": {
@@ -131,32 +131,32 @@
 	},
 	"Html::cssFile": {
 		"prefix": "Html::cssFile",
-		"body": "Html::cssFile(${$url}, ${$options = []})",
+		"body": "Html::cssFile(${$url}, ${$options = []})$3",
 		"description": "Generates a link tag that refers to an external CSS file."
 	},
 	"Html::cssStyleFromArray": {
 		"prefix": "Html::cssStyleFromArray",
-		"body": "Html::cssStyleFromArray(${array $style})",
+		"body": "Html::cssStyleFromArray(${array $style})$3",
 		"description": "Converts a CSS style array into a string representation."
 	},
 	"Html::cssStyleToArray": {
 		"prefix": "Html::cssStyleToArray",
-		"body": "Html::cssStyleToArray(${array $style})",
+		"body": "Html::cssStyleToArray(${array $style})$3",
 		"description": "Converts a CSS style string into an array representation."
 	},
 	"Html::decode": {
 		"prefix": "Html::decode",
-		"body": "Html::decode($content})",
+		"body": "Html::decode($content})$3",
 		"description": "Decodes special HTML entities back to the corresponding characters."
 	},
 	"Html::dropDownList": {
 		"prefix": "Html::dropDownList",
-		"body": "Html::dropDownList($name}, ${$selection = null}, ${$items = []}, ${$options = []})",
+		"body": "Html::dropDownList($name}, ${$selection = null}, ${$items = []}, ${$options = []})$3",
 		"description": "Generates a drop-down list."
 	},
 	"Html::encode": {
 		"prefix": "Html::encode",
-		"body": "Html::encode($content}, ${$doubleEncode = true})",
+		"body": "Html::encode($content}, ${$doubleEncode = true})$3",
 		"description": "Encodes special characters into HTML entities."
 	},
 	"Html::endForm": {
@@ -166,12 +166,12 @@
 	},
 	"Html::endTag": {
 		"prefix": "Html::endTag",
-		"body": "Html::endTag($name})",
+		"body": "Html::endTag($name})$3",
 		"description": "Generates an end tag."
 	},
 	"Html::error": {
 		"prefix": "Html::error",
-		"body": "Html::error($model, ${$attribute}, ${$options = []})",
+		"body": "Html::error($model, ${$attribute}, ${$options = []})$3",
 		"description": "Generates a tag that contains the first validation error of the specified model attribute."
 	}
 }

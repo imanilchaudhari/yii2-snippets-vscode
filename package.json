@@ -6,7 +6,8 @@
     "publisher": "imanilchaudhari",
     "keywords": [
         "yii2",
-        "snippet"
+        "snippet",
+        "yii2 snippets"
     ],
     "author": {
         "name": "Anil Chaudhari",
@@ -33,10 +34,18 @@
             {
                 "language": "php",
                 "path": "./snippets/yii.json"
-            },            
+            },
+            {
+                "language": "php",
+                "path": "./snippets/miscellaneous.json"
+            },
             {
                 "language": "php",
                 "path": "./snippets/helpers/array.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/helpers/file.json"
             },
             {
                 "language": "php",
