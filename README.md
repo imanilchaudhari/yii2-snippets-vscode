@@ -1,3 +1,10 @@
+[![Version](http://vsmarketplacebadge.apphb.com/version/imanilchaudhari.yii2-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=imanilchaudhari.yii2-snippets)
+[![Installs](http://vsmarketplacebadge.apphb.com/installs/imanilchaudhari.yii2-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=imanilchaudhari.yii2-snippets)
+[![Ratings](https://vsmarketplacebadge.apphb.com/rating/imanilchaudhari.yii2-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=imanilchaudhari.yii2-snippets)
+[![Dependency Status](https://david-dm.org/imanilchaudhari/yii2-snippets-vscode.svg)](https://david-dm.org/imanilchaudhari/yii2-snippets-vscode)
+[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/imanilchaudhari/yii2-snippets-vscode.svg)](http://isitmaintained.com/project/imanilchaudhari/yii2-snippets-vscode "Average time to resolve an issue")
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/imanilchaudhari/yii2-snippets-vscode.svg)](http://isitmaintained.com/project/imanilchaudhari/yii2-snippets-vscode "Percentage of issues still open")
+
 ## Yii2 Snippets
 Yii2 snippets for Visual Studio Code.
 This extension is used to snippet the Yii2 codes to make coding faster and easier, It includes:
