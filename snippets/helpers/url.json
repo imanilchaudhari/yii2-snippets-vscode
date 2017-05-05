@@ -1,7 +1,7 @@
 {
 	"Url::base": {
 		"prefix": "Url::base",
-		"body": "Url::base(${$schema = false})$3",
+		"body": "Url::base(${\\$schema = false})$3",
 		"description": "Returns the base URL of the current request."
 	},
 	"Url::canonical": {
@@ -16,37 +16,37 @@
 	},
 	"Url::home": {
 		"prefix": "Url::home",
-		"body": "Url::home(${$schema = null]})$3",
+		"body": "Url::home(${\\$schema = null]})$3",
 		"description": "Returns the home URL."
 	},
 	"Url::isRelative": {
 		"prefix": "Url::isRelative",
-		"body": "Url::isRelative(${$url})$3",
+		"body": "Url::isRelative(${\\$url})$3",
 		"description": "Returns a value indicating whether a URL is relative."
 	},
 	"Url::normalizeRoute": {
 		"prefix": "Url::normalizeRoute",
-		"body": "Url::normalizeRoute(${$route})$3",
+		"body": "Url::normalizeRoute(${\\$route})$3",
 		"description": "Normalizes route and makes it suitable for UrlManager. Absolute routes are staying as is while relative routes are converted to absolute ones."
 	},
 	"Url::previous": {
 		"prefix": "Url::previous",
-		"body": "Url::previous(${$name = null})$3",
+		"body": "Url::previous(${\\$name = null})$3",
 		"description": "Returns the URL previously remembered."
 	},
 	"Url::remember": {
 		"prefix": "Url::remember",
-		"body": "Url::remember(${$name = null})$3",
+		"body": "Url::remember(${\\$name = null})$3",
 		"description": "Remembers the specified URL so that it can be later fetched back by previous()."
 	},
 	"Url::to": {
 		"prefix": "Url::to",
-		"body": "Url::to(${$url}, ${$schema = false})$3",
+		"body": "Url::to(${\\$url}, ${\\$schema = false})$3",
 		"description": "Creates a URL based on the given parameters."
 	},
 	"Url::toRoute": {
 		"prefix": "Url::toRoute",
-		"body": "Url::toRoute(${$route}, ${$schema = false})$3",
+		"body": "Url::toRoute(${\\$route}, ${\\$schema = false})$3",
 		"description": "Creates a URL for the given route."
 	}
 }

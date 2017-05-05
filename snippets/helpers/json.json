@@ -1,17 +1,17 @@
 {
 	"Json::decode": {
 		"prefix": "Json::decode",
-		"body": "Json::decode(${$json}, ${$asArray = true})$3",
+		"body": "Json::decode(${\\$json}, ${\\$asArray = true})$3",
 		"description": "Decodes the given JSON string into a PHP data structure."
 	},
     "Json::encode": {
 		"prefix": "Json::encode",
-		"body": "Json::encode(${$json}, ${$asArray = true})$3",
+		"body": "Json::encode(${\\$json}, ${\\$asArray = true})$3",
 		"description": "Encodes the given value into a JSON string."
 	},
     "Json::htmlEncode": {
 		"prefix": "Json::htmlEncode",
-		"body": "Json::htmlEncode(${$value})$3",
+		"body": "Json::htmlEncode(${\\$value})$3",
 		"description": "Encodes the given value into a JSON string HTML-escaping entities so it is safe to be embedded in HTML code."
 	}
 }

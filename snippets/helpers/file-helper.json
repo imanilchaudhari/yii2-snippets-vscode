@@ -1,57 +1,57 @@
 {
 	"FileHelper::copyDirectory": {
 		"prefix": "FileHelper::copyDirectory",
-		"body": "FileHelper::copyDirectory(${$source}, ${$dest}, ${$options = []})$3",
+		"body": "FileHelper::copyDirectory(${\\$source}, ${\\$dest}, ${\\$options = []})$3",
 		"description": "Copies a whole directory as another one."
 	},
 	"FileHelper::createDirectory": {
 		"prefix": "FileHelper::createDirectory",
-		"body": "FileHelper::createDirectory(${$path}, ${$mode = 509}, ${$recursive = true})$3",
+		"body": "FileHelper::createDirectory(${\\$path}, ${\\$mode = 509}, ${\\$recursive = true})$3",
 		"description": "Creates a new directory."
 	},
 	"FileHelper::filterPath": {
 		"prefix": "FileHelper::filterPath",
-		"body": "FileHelper::filterPath(${$path}, ${$options})$3",
+		"body": "FileHelper::filterPath(${\\$path}, ${\\$options})$3",
 		"description": "Checks if the given file path satisfies the filtering options."
 	},
 	"FileHelper::findFiles": {
 		"prefix": "FileHelper::findFiles",
-		"body": "FileHelper::findFiles(${$dir}, ${$options = []})$3",
+		"body": "FileHelper::findFiles(${\\$dir}, ${\\$options = []})$3",
 		"description": "Returns the files found under the specified directory and subdirectories."
 	},
 	"FileHelper::getExtensionsByMimeType": {
 		"prefix": "FileHelper::getExtensionsByMimeType",
-		"body": "FileHelper::getExtensionsByMimeType(${$mimeType}, ${$magicFile = null})$3",
+		"body": "FileHelper::getExtensionsByMimeType(${\\$mimeType}, ${\\$magicFile = null})$3",
 		"description": "Determines the extensions by given MIME type."
 	},
 	"FileHelper::getMimeType": {
 		"prefix": "FileHelper::getMimeType",
-		"body": "FileHelper::getMimeType(${$file}, ${$magicFile = null}, ${$checkedExtension = true})$3",
+		"body": "FileHelper::getMimeType(${\\$file}, ${\\$magicFile = null}, ${\\$checkedExtension = true})$3",
 		"description": "Determines the MIME type of the specified file."
 	},
 	"FileHelper::getMimeTypeByExtension": {
 		"prefix": "FileHelper::getMimeTypeByExtension",
-		"body": "FileHelper::getMimeTypeByExtension(${$file}, ${$magicFile = null})$3",
+		"body": "FileHelper::getMimeTypeByExtension(${\\$file}, ${\\$magicFile = null})$3",
 		"description": "Determines the MIME type based on the extension name of the specified file."
 	},
 	"FileHelper::loadMimeTypes": {
 		"prefix": "FileHelper::loadMimeTypes",
-		"body": "FileHelper::loadMimeTypes(${$magicFile})$3",
+		"body": "FileHelper::loadMimeTypes(${\\$magicFile})$3",
 		"description": "Loads MIME types from the specified file."
 	},
 	"FileHelper::localize": {
 		"prefix": "FileHelper::localize",
-		"body": "FileHelper::localize(${$file}, ${$language = null}, ${$sourceLanguage = null})$3",
+		"body": "FileHelper::localize(${\\$file}, ${\\$language = null}, ${\\$sourceLanguage = null})$3",
 		"description": "Returns the localized version of a specified file."
 	},
 	"FileHelper::normalizePath": {
 		"prefix": "FileHelper::normalizePath",
-		"body": "FileHelper::normalizePath(${$path}, ${$ds = DIRECTORY_SEPARATOR})$3",
+		"body": "FileHelper::normalizePath(${\\$path}, ${\\$ds = DIRECTORY_SEPARATOR})$3",
 		"description": "Normalizes a file/directory path."
 	},
 	"FileHelper::removeDirectory": {
 		"prefix": "FileHelper::removeDirectory",
-		"body": "FileHelper::removeDirectory(${$dir}, ${$options = []})$3",
+		"body": "FileHelper::removeDirectory(${\\$dir}, ${\\$options = []})$3",
 		"description": "Removes a directory (and all its content) recursively."
 	}
 }
