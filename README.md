@@ -4,6 +4,12 @@ This extension is used to snippet the Yii2 codes to make coding faster and easie
 
 - Snippets
 
+## Best Works While
+Configuring snippet suggestions on the top.
+```
+"editor.snippetSuggestions" : "top"
+```
+
 ## Todo
 - [on-going]Addning more and more functions.
 

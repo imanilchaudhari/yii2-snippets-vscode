@@ -1,0 +1,1522 @@
+{
+	"use Yii": {
+		"prefix": "use Yii",
+		"body": "use Yii;",
+		"description": "Use Yii"
+	},
+	"use yii\\base\\Action": {
+		"prefix": "use yii\\base\\Action",
+		"body": "use yii\\base\\Action;",
+		"description": "Use Action class."
+	},
+	"use yii\\base\\ActionEvent": {
+		"prefix": "use yii\\base\\ActionEvent",
+		"body": "use yii\\base\\ActionEvent;",
+		"description": "Use ActionEvent class."
+	},
+	"use yii\\base\\ActionFilter": {
+		"prefix": "use yii\\base\\ActionFilter",
+		"body": "use yii\\base\\ActionFilter;",
+		"description": "Use ActionFilter class."
+	},
+	"use yii\\base\\Application": {
+		"prefix": "use yii\\base\\Application",
+		"body": "use yii\\base\\Application;",
+		"description": "Use Application class."
+	},
+	"use yii\\base\\Arrayable": {
+		"prefix": "use yii\\base\\Arrayable",
+		"body": "use yii\\base\\Arrayable;",
+		"description": "Use Arrayable class."
+	},
+	"use yii\\base\\ArrayableTrait": {
+		"prefix": "use yii\\base\\ArrayableTrait",
+		"body": "use yii\\base\\ArrayableTrait;",
+		"description": "Use ArrayableTrait class."
+	},
+	"use yii\\base\\ArrayAccessTrait": {
+		"prefix": "use yii\\base\\ArrayAccessTrait",
+		"body": "use yii\\base\\ArrayAccessTrait;",
+		"description": "Use ArrayAccessTrait class."
+	},
+	"use yii\\base\\Behavior": {
+		"prefix": "use yii\\base\\Behavior",
+		"body": "use yii\\base\\Behavior;",
+		"description": "Use Behavior class."
+	},
+	"use yii\\base\\BootstrapInterface": {
+		"prefix": "use yii\\base\\BootstrapInterface",
+		"body": "use yii\\base\\BootstrapInterface;",
+		"description": "Use BootstrapInterface class."
+	},
+	"use yii\\base\\Components": {
+		"prefix": "use yii\\base\\Components",
+		"body": "use yii\\base\\Components;",
+		"description": "Use Components class."
+	},
+	"use yii\\base\\Configurable": {
+		"prefix": "use yii\\base\\Configurable",
+		"body": "use yii\\base\\Configurable;",
+		"description": "Use Configurable class."
+	},
+	"use yii\\base\\Controller": {
+		"prefix": "use yii\\base\\Controller",
+		"body": "use yii\\base\\Controller;",
+		"description": "Use Controller class."
+	},
+	"use yii\\base\\DynamicModel": {
+		"prefix": "use yii\\base\\DynamicModel",
+		"body": "use yii\\base\\DynamicModel;",
+		"description": "Use DynamicModel class."
+	},
+	"use yii\\base\\ErrorException": {
+		"prefix": "use yii\\base\\ErrorException",
+		"body": "use yii\\base\\ErrorException;",
+		"description": "Use ErrorException class."
+	},
+	"use yii\\base\\ErrorHandler": {
+		"prefix": "use yii\\base\\ErrorHandler",
+		"body": "use yii\\base\\ErrorHandler;",
+		"description": "Use ErrorHandler class."
+	},
+	"use yii\\base\\Event": {
+		"prefix": "use yii\\base\\Event",
+		"body": "use yii\\base\\Event;",
+		"description": "Use Event class."
+	},
+	"use yii\\base\\Exception": {
+		"prefix": "use yii\\base\\Exception",
+		"body": "use yii\\base\\Exception;",
+		"description": "Use Exception class."
+	},
+	"use yii\\base\\ExitException": {
+		"prefix": "use yii\\base\\ExitException",
+		"body": "use yii\\base\\ExitException;",
+		"description": "Use ExitException class."
+	},
+	"use yii\\base\\InlineAction": {
+		"prefix": "use yii\\base\\InlineAction",
+		"body": "use yii\\base\\InlineAction;",
+		"description": "Use InlineAction class."
+	},
+	"use yii\\base\\InvalidCallException": {
+		"prefix": "use yii\\base\\InvalidCallException",
+		"body": "use yii\\base\\InvalidCallException;",
+		"description": "Use InvalidCallException class."
+	},
+	"use yii\\base\\InvalidConfigException": {
+		"prefix": "use yii\\base\\InvalidConfigException",
+		"body": "use yii\\base\\InvalidConfigException;",
+		"description": "Use InvalidConfigException class."
+	},
+	"use yii\\base\\InvalidParamException": {
+		"prefix": "use yii\\base\\InvalidParamException",
+		"body": "use yii\\base\\InvalidParamException;",
+		"description": "Use InvalidParamException class."
+	},
+	"use yii\\base\\InvalidRouteException": {
+		"prefix": "use yii\\base\\InvalidRouteException",
+		"body": "use yii\\base\\InvalidRouteException;",
+		"description": "Use InvalidRouteException class."
+	},
+	"use yii\\base\\InvalidValueException": {
+		"prefix": "use yii\\base\\InvalidValueException",
+		"body": "use yii\\base\\InvalidValueException;",
+		"description": "Use InvalidValueException class."
+	},
+	"use yii\\base\\Model": {
+		"prefix": "use yii\\base\\Model",
+		"body": "use yii\\base\\Model;",
+		"description": "Use Model class."
+	},
+	"use yii\\base\\ModelEvent": {
+		"prefix": "use yii\\base\\ModelEvent",
+		"body": "use yii\\base\\ModelEvent;",
+		"description": "Use ModelEvent class."
+	},
+	"use yii\\base\\Module": {
+		"prefix": "use yii\\base\\Module",
+		"body": "use yii\\base\\Module;",
+		"description": "Use Module class."
+	},
+	"use yii\\base\\NotSupportedException": {
+		"prefix": "use yii\\base\\NotSupportedException",
+		"body": "use yii\\base\\NotSupportedException;",
+		"description": "Use NotSupportedException class."
+	},
+	"use yii\\base\\Object": {
+		"prefix": "use yii\\base\\Object",
+		"body": "use yii\\base\\Object;",
+		"description": "Use Object class."
+	},
+	"use yii\\base\\Request": {
+		"prefix": "use yii\\base\\Request",
+		"body": "use yii\\base\\Request;",
+		"description": "Use Request class."
+	},
+	"use yii\\base\\Response": {
+		"prefix": "use yii\\base\\Response",
+		"body": "use yii\\base\\Response;",
+		"description": "Use Response class."
+	},
+	"use yii\\base\\Security": {
+		"prefix": "use yii\\base\\Security",
+		"body": "use yii\\base\\Security;",
+		"description": "Use Security class."
+	},
+	"use yii\\base\\Theme": {
+		"prefix": "use yii\\base\\Theme",
+		"body": "use yii\\base\\Theme;",
+		"description": "Use Theme class."
+	},
+	"use yii\\base\\UnknownClassException": {
+		"prefix": "use yii\\base\\UnknownClassException",
+		"body": "use yii\\base\\UnknownClassException;",
+		"description": "Use UnknownClassException class."
+	},
+	"use yii\\base\\UnknownMethodException": {
+		"prefix": "use yii\\base\\UnknownMethodException",
+		"body": "use yii\\base\\UnknownMethodException;",
+		"description": "Use UnknownMethodException class."
+	},
+	"use yii\\base\\UnknownPropertyException": {
+		"prefix": "use yii\\base\\UnknownPropertyException",
+		"body": "use yii\\base\\UnknownPropertyException;",
+		"description": "Use UnknownPropertyException class."
+	},
+	"use yii\\base\\UserException": {
+		"prefix": "use yii\\base\\UserException",
+		"body": "use yii\\base\\UserException;",
+		"description": "Use UserException class."
+	},
+	"use yii\\base\\View": {
+		"prefix": "use yii\\base\\View",
+		"body": "use yii\\base\\View;",
+		"description": "Use View class."
+	},
+	"use yii\\base\\ViewContextInterface": {
+		"prefix": "use yii\\base\\ViewContextInterface",
+		"body": "use yii\\base\\ViewContextInterface;",
+		"description": "Use ViewContextInterface class."
+	},
+	"use yii\\base\\ViewEvent": {
+		"prefix": "use yii\\base\\ViewEvent",
+		"body": "use yii\\base\\ViewEvent;",
+		"description": "Use ViewEvent class."
+	},
+	"use yii\\base\\ViewNotFoundException": {
+		"prefix": "use yii\\base\\ViewNotFoundException",
+		"body": "use yii\\base\\ViewNotFoundException;",
+		"description": "Use ViewNotFoundException class."
+	},
+	"use yii\\base\\ViewRenderer": {
+		"prefix": "use yii\\base\\ViewRenderer",
+		"body": "use yii\\base\\ViewRenderer;",
+		"description": "Use ViewRenderer class."
+	},
+	"use yii\\base\\Widget": {
+		"prefix": "use yii\\base\\Widget",
+		"body": "use yii\\base\\Widget;",
+		"description": "Use Widget class."
+	},
+	"use yii\\base\\WidgetEvent": {
+		"prefix": "use yii\\base\\WidgetEvent",
+		"body": "use yii\\base\\WidgetEvent;",
+		"description": "Use WidgetEvent class."
+	},
+	"use yii\\behaviors\\AttributeBehavior": {
+		"prefix": "use yii\\behaviors\\AttributeBehavior",
+		"body": "use yii\\behaviors\\AttributeBehavior;",
+		"description": "Use AttributeBehavior class."
+	},
+	"use yii\\behaviors\\AttributeTypecastBehavior": {
+		"prefix": "use yii\\behaviors\\AttributeTypecastBehavior",
+		"body": "use yii\\behaviors\\AttributeTypecastBehavior;",
+		"description": "Use AttributeTypecastBehavior class."
+	},
+	"use yii\\behaviors\\BlameableBehavior": {
+		"prefix": "use yii\\behaviors\\BlameableBehavior",
+		"body": "use yii\\behaviors\\BlameableBehavior;",
+		"description": "Use BlameableBehavior class."
+	},
+	"use yii\\behaviors\\SluggableBehavior": {
+		"prefix": "use yii\\behaviors\\SluggableBehavior",
+		"body": "use yii\\behaviors\\SluggableBehavior;",
+		"description": "Use SluggableBehavior class."
+	},
+	"use yii\\behaviors\\TimestampBehavior": {
+		"prefix": "use yii\\behaviors\\TimestampBehavior",
+		"body": "use yii\\behaviors\\TimestampBehavior;",
+		"description": "Use TimestampBehavior class."
+	},
+	"use yii\\caching\\ApcCache": {
+		"prefix": "use yii\\caching\\ApcCache",
+		"body": "use yii\\caching\\ApcCache;",
+		"description": "Use ApcCache class."
+	},
+	"use yii\\caching\\ArrayCache": {
+		"prefix": "use yii\\caching\\ArrayCache",
+		"body": "use yii\\caching\\ArrayCache;",
+		"description": "Use ArrayCache class."
+	},
+	"use yii\\caching\\Cache": {
+		"prefix": "use yii\\caching\\Cache",
+		"body": "use yii\\caching\\Cache;",
+		"description": "Use Cache class."
+	},
+	"use yii\\caching\\ChainedDependency": {
+		"prefix": "use yii\\caching\\ChainedDependency",
+		"body": "use yii\\caching\\ChainedDependency;",
+		"description": "Use ChainedDependency class."
+	},
+	"use yii\\caching\\DbCache": {
+		"prefix": "use yii\\caching\\DbCache",
+		"body": "use yii\\caching\\DbCache;",
+		"description": "Use DbCache class."
+	},
+	"use yii\\caching\\DbDependency": {
+		"prefix": "use yii\\caching\\DbDependency",
+		"body": "use yii\\caching\\DbDependency;",
+		"description": "Use DbDependency class."
+	},
+	"use yii\\caching\\Dependency": {
+		"prefix": "use yii\\caching\\Dependency",
+		"body": "use yii\\caching\\Dependency;",
+		"description": "Use Dependency class."
+	},
+	"use yii\\caching\\DummyCache": {
+		"prefix": "use yii\\caching\\DummyCache",
+		"body": "use yii\\caching\\DummyCache;",
+		"description": "Use DummyCache class."
+	},
+	"use yii\\caching\\ExpressionDependency": {
+		"prefix": "use yii\\caching\\ExpressionDependency",
+		"body": "use yii\\caching\\ExpressionDependency;",
+		"description": "Use ExpressionDependency class."
+	},
+	"use yii\\caching\\FileCache": {
+		"prefix": "use yii\\caching\\FileCache",
+		"body": "use yii\\caching\\FileCache;",
+		"description": "Use FileCache class."
+	},
+	"use yii\\caching\\FileDependency": {
+		"prefix": "use yii\\caching\\FileDependency",
+		"body": "use yii\\caching\\FileDependency;",
+		"description": "Use FileDependency class."
+	},
+	"use yii\\caching\\MemCache": {
+		"prefix": "use yii\\caching\\MemCache",
+		"body": "use yii\\caching\\MemCache;",
+		"description": "Use MemCache class."
+	},
+	"use yii\\caching\\memCacheServer": {
+		"prefix": "use yii\\caching\\memCacheServer",
+		"body": "use yii\\caching\\memCacheServer;",
+		"description": "Use memCacheServer class."
+	},
+	"use yii\\caching\\TagDepency": {
+		"prefix": "use yii\\caching\\TagDepency",
+		"body": "use yii\\caching\\TagDepency;",
+		"description": "Use TagDepency class."
+	},
+	"use yii\\caching\\WinCache": {
+		"prefix": "use yii\\caching\\WinCache",
+		"body": "use yii\\caching\\WinCache;",
+		"description": "Use WinCache class."
+	},
+	"use yii\\caching\\XChache": {
+		"prefix": "use yii\\caching\\XChache",
+		"body": "use yii\\caching\\XChache;",
+		"description": "Use XChache class."
+	},
+	"use yii\\caching\\ZendDataCache": {
+		"prefix": "use yii\\caching\\ZendDataCache",
+		"body": "use yii\\caching\\ZendDataCache;",
+		"description": "Use ZendDataCache class."
+	},
+	"use yii\\captcha\\Captcha": {
+		"prefix": "use yii\\captcha\\Captcha",
+		"body": "use yii\\captcha\\Captcha;",
+		"description": "Use Captcha class."
+	},
+	"use yii\\captcha\\CaptchaAction": {
+		"prefix": "use yii\\captcha\\CaptchaAction",
+		"body": "use yii\\captcha\\CaptchaAction;",
+		"description": "Use CaptchaAction class."
+	},
+	"use yii\\captcha\\CaptchaAsset": {
+		"prefix": "use yii\\captcha\\CaptchaAsset",
+		"body": "use yii\\captcha\\CaptchaAsset;",
+		"description": "Use CaptchaAsset class."
+	},
+	"use yii\\captcha\\CaptchaValidator": {
+		"prefix": "use yii\\captcha\\CaptchaValidator",
+		"body": "use yii\\captcha\\CaptchaValidator;",
+		"description": "Use CaptchaValidator class."
+	},
+	"use yii\\console\\Application": {
+		"prefix": "use yii\\console\\Application",
+		"body": "use yii\\console\\Application;",
+		"description": "Use Application class."
+	},
+	"use yii\\console\\Controller": {
+		"prefix": "use yii\\console\\Controller",
+		"body": "use yii\\console\\Controller;",
+		"description": "Use Controller class."
+	},
+	"use yii\\console\\ErrorHandler": {
+		"prefix": "use yii\\console\\ErrorHandler",
+		"body": "use yii\\console\\ErrorHandler;",
+		"description": "Use ErrorHandler class."
+	},
+	"use yii\\console\\Exception": {
+		"prefix": "use yii\\console\\Exception",
+		"body": "use yii\\console\\Exception;",
+		"description": "Use Exception class."
+	},
+	"use yii\\console\\Markdown": {
+		"prefix": "use yii\\console\\Markdown",
+		"body": "use yii\\console\\Markdown;",
+		"description": "Use Markdown class."
+	},
+	"use yii\\console\\Request": {
+		"prefix": "use yii\\console\\Request",
+		"body": "use yii\\console\\Request;",
+		"description": "Use Request class."
+	},
+	"use yii\\console\\Response": {
+		"prefix": "use yii\\console\\Response",
+		"body": "use yii\\console\\Response;",
+		"description": "Use Response class."
+	},
+	"use yii\\console\\UnkonwnCommandException": {
+		"prefix": "use yii\\console\\UnkonwnCommandException",
+		"body": "use yii\\console\\UnkonwnCommandException;",
+		"description": "Use UnkonwnCommandException class."
+	},
+	"use yii\\data\\ActiveDataProbider": {
+		"prefix": "use yii\\data\\ActiveDataProbider",
+		"body": "use yii\\data\\ActiveDataProbider;",
+		"description": "Use ActiveDataProbider class."
+	},
+	"use yii\\data\\ArrayDataProbider": {
+		"prefix": "use yii\\data\\ArrayDataProbider",
+		"body": "use yii\\data\\ArrayDataProbider;",
+		"description": "Use ArrayDataProbider class."
+	},
+	"use yii\\data\\BaseDataProbider": {
+		"prefix": "use yii\\data\\BaseDataProbider",
+		"body": "use yii\\data\\BaseDataProbider;",
+		"description": "Use BaseDataProbider class."
+	},
+	"use yii\\data\\DataProbiderInterface": {
+		"prefix": "use yii\\data\\DataProbiderInterface",
+		"body": "use yii\\data\\DataProbiderInterface;",
+		"description": "Use DataProbiderInterface class."
+	},
+	"use yii\\data\\Pagination": {
+		"prefix": "use yii\\data\\Pagination",
+		"body": "use yii\\data\\Pagination;",
+		"description": "Use Pagination class."
+	},
+	"use yii\\data\\Sort": {
+		"prefix": "use yii\\data\\Sort",
+		"body": "use yii\\data\\Sort;",
+		"description": "Use Sort class."
+	},
+	"use yii\\data\\SqlDataProvider": {
+		"prefix": "use yii\\data\\SqlDataProvider",
+		"body": "use yii\\data\\SqlDataProvider;",
+		"description": "Use SqlDataProvider class."
+	},
+	"use yii\\db\\ActiveQuery": {
+		"prefix": "use yii\\db\\ActiveQuery",
+		"body": "use yii\\db\\ActiveQuery;",
+		"description": "Use ActiveQuery class."
+	},
+	"use yii\\db\\ActiveQueryInterface": {
+		"prefix": "use yii\\db\\ActiveQueryInterface",
+		"body": "use yii\\db\\ActiveQueryInterface;",
+		"description": "Use ActiveQueryInterface class."
+	},
+	"use yii\\db\\ActiveQueryTrait": {
+		"prefix": "use yii\\db\\ActiveQueryTrait",
+		"body": "use yii\\db\\ActiveQueryTrait;",
+		"description": "Use ActiveQueryTrait class."
+	},
+	"use yii\\db\\ActiveRecord": {
+		"prefix": "use yii\\db\\ActiveRecord",
+		"body": "use yii\\db\\ActiveRecord;",
+		"description": "Use ActiveRecord class."
+	},
+	"use yii\\db\\ActiveRecordInterface": {
+		"prefix": "use yii\\db\\ActiveRecordInterface",
+		"body": "use yii\\db\\ActiveRecordInterface;",
+		"description": "Use ActiveRecordInterface class."
+	},
+	"use yii\\db\\ActiveRelationTrait": {
+		"prefix": "use yii\\db\\ActiveRelationTrait",
+		"body": "use yii\\db\\ActiveRelationTrait;",
+		"description": "Use ActiveRelationTrait class."
+	},
+	"use yii\\db\\AfterSaveEvent": {
+		"prefix": "use yii\\db\\AfterSaveEvent",
+		"body": "use yii\\db\\AfterSaveEvent;",
+		"description": "Use AfterSaveEvent class."
+	},
+	"use yii\\db\\ColumnSchema": {
+		"prefix": "use yii\\db\\ColumnSchema",
+		"body": "use yii\\db\\ColumnSchema;",
+		"description": "Use ColumnSchema class."
+	},
+	"use yii\\db\\ColumnSchemaBuilder": {
+		"prefix": "use yii\\db\\ColumnSchemaBuilder",
+		"body": "use yii\\db\\ColumnSchemaBuilder;",
+		"description": "Use ColumnSchemaBuilder class."
+	},
+	"use yii\\db\\Command": {
+		"prefix": "use yii\\db\\Command",
+		"body": "use yii\\db\\Command;",
+		"description": "Use Command class."
+	},
+	"use yii\\db\\Connection": {
+		"prefix": "use yii\\db\\Connection",
+		"body": "use yii\\db\\Connection;",
+		"description": "Use Connection class."
+	},
+	"use yii\\db\\DataReader": {
+		"prefix": "use yii\\db\\DataReader",
+		"body": "use yii\\db\\DataReader;",
+		"description": "Use DataReader class."
+	},
+	"use yii\\db\\Exception": {
+		"prefix": "use yii\\db\\Exception",
+		"body": "use yii\\db\\Exception;",
+		"description": "Use Exception class."
+	},
+	"use yii\\db\\Expression": {
+		"prefix": "use yii\\db\\Expression",
+		"body": "use yii\\db\\Expression;",
+		"description": "Use Expression class."
+	},
+	"use yii\\db\\IntegrityException": {
+		"prefix": "use yii\\db\\IntegrityException",
+		"body": "use yii\\db\\IntegrityException;",
+		"description": "Use IntegrityException class."
+	},
+	"use yii\\db\\Migration": {
+		"prefix": "use yii\\db\\Migration",
+		"body": "use yii\\db\\Migration;",
+		"description": "Use Migration class."
+	},
+	"use yii\\db\\MigrationInterface": {
+		"prefix": "use yii\\db\\MigrationInterface",
+		"body": "use yii\\db\\MigrationInterface;",
+		"description": "Use MigrationInterface class."
+	},
+	"use yii\\db\\Query": {
+		"prefix": "use yii\\db\\Query",
+		"body": "use yii\\db\\Query;",
+		"description": "Use Query class."
+	},
+	"use yii\\db\\QueryBuilder": {
+		"prefix": "use yii\\db\\QueryBuilder",
+		"body": "use yii\\db\\QueryBuilder;",
+		"description": "Use QueryBuilder class."
+	},
+	"use yii\\db\\QueryInterface": {
+		"prefix": "use yii\\db\\QueryInterface",
+		"body": "use yii\\db\\QueryInterface;",
+		"description": "Use QueryInterface class."
+	},
+	"use yii\\db\\QueryTrait": {
+		"prefix": "use yii\\db\\QueryTrait",
+		"body": "use yii\\db\\QueryTrait;",
+		"description": "Use QueryTrait class."
+	},
+	"use yii\\db\\Schema": {
+		"prefix": "use yii\\db\\Schema",
+		"body": "use yii\\db\\Schema;",
+		"description": "Use Schema class."
+	},
+	"use yii\\db\\SchemaBuilderTrait": {
+		"prefix": "use yii\\db\\SchemaBuilderTrait",
+		"body": "use yii\\db\\SchemaBuilderTrait;",
+		"description": "Use SchemaBuilderTrait class."
+	},
+	"use yii\\db\\StaleObjectException": {
+		"prefix": "use yii\\db\\StaleObjectException",
+		"body": "use yii\\db\\StaleObjectException;",
+		"description": "Use StaleObjectException class."
+	},
+	"use yii\\db\\TableSchema": {
+		"prefix": "use yii\\db\\TableSchema",
+		"body": "use yii\\db\\TableSchema;",
+		"description": "Use TableSchema class."
+	},
+	"use yii\\db\\Transaction": {
+		"prefix": "use yii\\db\\Transaction",
+		"body": "use yii\\db\\Transaction;",
+		"description": "Use Transaction class."
+	},
+	"use yii\\di\\Container": {
+		"prefix": "use yii\\di\\Container",
+		"body": "use yii\\di\\Container;",
+		"description": "Use Container class."
+	},
+	"use yii\\di\\Instance": {
+		"prefix": "use yii\\di\\Instance",
+		"body": "use yii\\di\\Instance;",
+		"description": "Use Instance class."
+	},
+	"use yii\\di\\NonInstantiableException": {
+		"prefix": "use yii\\di\\NonInstantiableException",
+		"body": "use yii\\di\\NonInstantiableException;",
+		"description": "Use NonInstantiableException class."
+	},
+	"use yii\\di\\ServerLocator": {
+		"prefix": "use yii\\di\\ServerLocator",
+		"body": "use yii\\di\\ServerLocator;",
+		"description": "Use ServerLocator class."
+	},
+	"use yii\\filters\\AccessController": {
+		"prefix": "use yii\\filters\\AccessController",
+		"body": "use yii\\filters\\AccessController;",
+		"description": "Use AccessController class."
+	},
+	"use yii\\filters\\AccessRule": {
+		"prefix": "use yii\\filters\\AccessRule",
+		"body": "use yii\\filters\\AccessRule;",
+		"description": "Use AccessRule class."
+	},
+	"use yii\\filters\\ContentNegotiator": {
+		"prefix": "use yii\\filters\\ContentNegotiator",
+		"body": "use yii\\filters\\ContentNegotiator;",
+		"description": "Use ContentNegotiator class."
+	},
+	"use yii\\filters\\Cors": {
+		"prefix": "use yii\\filters\\Cors",
+		"body": "use yii\\filters\\Cors;",
+		"description": "Use Cors class."
+	},
+	"use yii\\filters\\HostControl": {
+		"prefix": "use yii\\filters\\HostControl",
+		"body": "use yii\\filters\\HostControl;",
+		"description": "Use HostControl class."
+	},
+	"use yii\\filters\\HttpCache": {
+		"prefix": "use yii\\filters\\HttpCache",
+		"body": "use yii\\filters\\HttpCache;",
+		"description": "Use HttpCache class."
+	},
+	"use yii\\filters\\PageCache": {
+		"prefix": "use yii\\filters\\PageCache",
+		"body": "use yii\\filters\\PageCache;",
+		"description": "Use PageCache class."
+	},
+	"use yii\\filters\\RateLimiter": {
+		"prefix": "use yii\\filters\\RateLimiter",
+		"body": "use yii\\filters\\RateLimiter;",
+		"description": "Use RateLimiter class."
+	},
+	"use yii\\filters\\RateLimitInterface": {
+		"prefix": "use yii\\filters\\RateLimitInterface",
+		"body": "use yii\\filters\\RateLimitInterface;",
+		"description": "Use RateLimitInterface class."
+	},
+	"use yii\\filters\\VerbFilter": {
+		"prefix": "use yii\\filters\\VerbFilter",
+		"body": "use yii\\filters\\VerbFilter;",
+		"description": "Use VerbFilter class."
+	},
+	"use yii\\grid\\ActionColumn": {
+		"prefix": "use yii\\grid\\ActionColumn",
+		"body": "use yii\\grid\\ActionColumn;",
+		"description": "Use ActionColumn class."
+	},
+	"use yii\\grid\\CheckboxColumn": {
+		"prefix": "use yii\\grid\\CheckboxColumn",
+		"body": "use yii\\grid\\CheckboxColumn;",
+		"description": "Use CheckboxColumn class."
+	},
+	"use yii\\grid\\Column": {
+		"prefix": "use yii\\grid\\Column",
+		"body": "use yii\\grid\\Column;",
+		"description": "Use Column class."
+	},
+	"use yii\\grid\\DataColumn": {
+		"prefix": "use yii\\grid\\DataColumn",
+		"body": "use yii\\grid\\DataColumn;",
+		"description": "Use DataColumn class."
+	},
+	"use yii\\grid\\GridView": {
+		"prefix": "use yii\\grid\\GridView",
+		"body": "use yii\\grid\\GridView;",
+		"description": "Use GridView class."
+	},
+	"use yii\\grid\\GridViewAsset": {
+		"prefix": "use yii\\grid\\GridViewAsset",
+		"body": "use yii\\grid\\GridViewAsset;",
+		"description": "Use GridViewAsset class."
+	},
+	"use yii\\grid\\RadioButtonColumn": {
+		"prefix": "use yii\\grid\\RadioButtonColumn",
+		"body": "use yii\\grid\\RadioButtonColumn;",
+		"description": "Use RadioButtonColumn class."
+	},
+	"use yii\\grid\\SerialButtonColumn": {
+		"prefix": "use yii\\grid\\SerialButtonColumn",
+		"body": "use yii\\grid\\SerialButtonColumn;",
+		"description": "Use SerialButtonColumn class."
+	},
+	"use yii\\helpers\\ArrayHelper": {
+		"prefix": "use yii\\helpers\\ArrayHelper",
+		"body": "use yii\\helpers\\ArrayHelper;",
+		"description": "Use ArrayHelper helper."
+	},
+	"use yii\\helpers\\Console": {
+		"prefix": "use yii\\helpers\\Console",
+		"body": "use yii\\helpers\\Console;",
+		"description": "Use Console helper."
+	},
+	"use yii\\helpers\\FileHelper": {
+		"prefix": "use yii\\helpers\\FileHelper",
+		"body": "use yii\\helpers\\FileHelper;",
+		"description": "Use FileHelper helper."
+	},
+	"use yii\\helpers\\FormatConverter": {
+		"prefix": "use yii\\helpers\\FormatConverter",
+		"body": "use yii\\helpers\\FormatConverter;",
+		"description": "Use FormatConverter helper."
+	},
+	"use yii\\helpers\\Html": {
+		"prefix": "use yii\\helpers\\Html",
+		"body": "use yii\\helpers\\Html;",
+		"description": "Use Html helper."
+	},
+	"use yii\\helpers\\HtmlPurifier": {
+		"prefix": "use yii\\helpers\\HtmlPurifier",
+		"body": "use yii\\helpers\\HtmlPurifier;",
+		"description": "Use HtmlPurifier helper."
+	},
+	"use yii\\helpers\\Inflector": {
+		"prefix": "use yii\\helpers\\Inflector",
+		"body": "use yii\\helpers\\Inflector;",
+		"description": "Use Inflector helper."
+	},
+	"use yii\\helpers\\Json": {
+		"prefix": "use yii\\helpers\\Json",
+		"body": "use yii\\helpers\\Json;",
+		"description": "Use Json helper."
+	},
+	"use yii\\helpers\\Markdown": {
+		"prefix": "use yii\\helpers\\Markdown",
+		"body": "use yii\\helpers\\Markdown;",
+		"description": "Use Markdown helper."
+	},
+	"use yii\\helpers\\ReplaceArray": {
+		"prefix": "use yii\\helpers\\ReplaceArray",
+		"body": "use yii\\helpers\\ReplaceArray;",
+		"description": "Use ReplaceArray helper."
+	},
+	"use yii\\helpers\\String": {
+		"prefix": "use yii\\helpers\\String",
+		"body": "use yii\\helpers\\String;",
+		"description": "Use String helper."
+	},
+	"use yii\\helpers\\UnsetArray": {
+		"prefix": "use yii\\helpers\\UnsetArray",
+		"body": "use yii\\helpers\\UnsetArray;",
+		"description": "Use UnsetArray helper."
+	},
+	"use yii\\helpers\\Url": {
+		"prefix": "use yii\\helpers\\Url",
+		"body": "use yii\\helpers\\Url;",
+		"description": "Use Url helper."
+	},
+	"use yii\\helpers\\VarDumper": {
+		"prefix": "use yii\\helpers\\VarDumper",
+		"body": "use yii\\helpers\\VarDumper;",
+		"description": "Use VarDumper helper."
+	},
+	"use yii\\i18n\\DbMessageSource": {
+		"prefix": "use yii\\i18n\\DbMessageSource",
+		"body": "use yii\\i18n\\DbMessageSource;",
+		"description": "Use DbMessageSource class."
+	},
+	"use yii\\i18n\\Formatter": {
+		"prefix": "use yii\\i18n\\Formatter",
+		"body": "use yii\\i18n\\Formatter;",
+		"description": "Use Formatter class."
+	},
+	"use yii\\i18n\\GettextFile": {
+		"prefix": "use yii\\i18n\\GettextFile",
+		"body": "use yii\\i18n\\GettextFile;",
+		"description": "Use GettextFile class."
+	},
+	"use yii\\i18n\\GettextMessageSource": {
+		"prefix": "use yii\\i18n\\GettextMessageSource",
+		"body": "use yii\\i18n\\GettextMessageSource;",
+		"description": "Use GettextMessageSource class."
+	},
+	"use yii\\i18n\\GettextMoFile": {
+		"prefix": "use yii\\i18n\\GettextMoFile",
+		"body": "use yii\\i18n\\GettextMoFile;",
+		"description": "Use GettextMoFile class."
+	},
+	"use yii\\i18n\\GettextPoFile": {
+		"prefix": "use yii\\i18n\\GettextPoFile",
+		"body": "use yii\\i18n\\GettextPoFile;",
+		"description": "Use GettextPoFile class."
+	},
+	"use yii\\i18n\\I18N": {
+		"prefix": "use yii\\i18n\\I18N",
+		"body": "use yii\\i18n\\I18N;",
+		"description": "Use I18N class."
+	},
+	"use yii\\i18n\\MessageFormatter": {
+		"prefix": "use yii\\i18n\\MessageFormatter",
+		"body": "use yii\\i18n\\MessageFormatter;",
+		"description": "Use MessageFormatter class."
+	},
+	"use yii\\i18n\\messageSource": {
+		"prefix": "use yii\\i18n\\messageSource",
+		"body": "use yii\\i18n\\messageSource;",
+		"description": "Use messageSource class."
+	},
+	"use yii\\i18n\\MissingTranslationEvent": {
+		"prefix": "use yii\\i18n\\MissingTranslationEvent",
+		"body": "use yii\\i18n\\MissingTranslationEvent;",
+		"description": "Use MissingTranslationEvent class."
+	},
+	"use yii\\i18n\\PhpMessageSource": {
+		"prefix": "use yii\\i18n\\PhpMessageSource",
+		"body": "use yii\\i18n\\PhpMessageSource;",
+		"description": "Use PhpMessageSource class."
+	},
+	"use yii\\log\\DbTarget": {
+		"prefix": "use yii\\log\\DbTarget",
+		"body": "use yii\\log\\DbTarget;",
+		"description": "Use DbTarget class."
+	},
+	"use yii\\log\\Dispatcher": {
+		"prefix": "use yii\\log\\Dispatcher",
+		"body": "use yii\\log\\Dispatcher;",
+		"description": "Use Dispatcher class."
+	},
+	"use yii\\log\\EmalTarget": {
+		"prefix": "use yii\\log\\EmalTarget",
+		"body": "use yii\\log\\EmalTarget;",
+		"description": "Use EmalTarget class."
+	},
+	"use yii\\log\\FileTarget": {
+		"prefix": "use yii\\log\\FileTarget",
+		"body": "use yii\\log\\FileTarget;",
+		"description": "Use FileTarget class."
+	},
+	"use yii\\log\\Logger": {
+		"prefix": "use yii\\log\\Logger",
+		"body": "use yii\\log\\Logger;",
+		"description": "Use Logger class."
+	},
+	"use yii\\log\\SyslogTarget": {
+		"prefix": "use yii\\log\\SyslogTarget",
+		"body": "use yii\\log\\SyslogTarget;",
+		"description": "Use SyslogTarget class."
+	},
+	"use yii\\log\\Target": {
+		"prefix": "use yii\\log\\Target",
+		"body": "use yii\\log\\Target;",
+		"description": "Use Target class."
+	},
+	"use yii\\mail\\BaseMailer": {
+		"prefix": "use yii\\mail\\BaseMailer",
+		"body": "use yii\\mail\\BaseMailer;",
+		"description": "Use BaseMailer class."
+	},
+	"use yii\\mail\\BaseMessage": {
+		"prefix": "use yii\\mail\\BaseMessage",
+		"body": "use yii\\mail\\BaseMessage;",
+		"description": "Use BaseMessage class."
+	},
+	"use yii\\mail\\mailerInterface": {
+		"prefix": "use yii\\mail\\mailerInterface",
+		"body": "use yii\\mail\\mailerInterface;",
+		"description": "Use mailerInterface class."
+	},
+	"use yii\\mail\\MailEvent": {
+		"prefix": "use yii\\mail\\MailEvent",
+		"body": "use yii\\mail\\MailEvent;",
+		"description": "Use MailEvent class."
+	},
+	"use yii\\mail\\MessageInterface": {
+		"prefix": "use yii\\mail\\MessageInterface",
+		"body": "use yii\\mail\\MessageInterface;",
+		"description": "Use MessageInterface class."
+	},
+	"use yii\\mutex\\DbMutex": {
+		"prefix": "use yii\\mutex\\DbMutex",
+		"body": "use yii\\mutex\\DbMutex;",
+		"description": "Use DbMutex class."
+	},
+	"use yii\\mutex\\FileMutex": {
+		"prefix": "use yii\\mutex\\FileMutex",
+		"body": "use yii\\mutex\\FileMutex;",
+		"description": "Use FileMutex class."
+	},
+	"use yii\\mutex\\Mutex": {
+		"prefix": "use yii\\mutex\\Mutex",
+		"body": "use yii\\mutex\\Mutex;",
+		"description": "Use Mutex class."
+	},
+	"use yii\\mutex\\MysqlMutex": {
+		"prefix": "use yii\\mutex\\MysqlMutex",
+		"body": "use yii\\mutex\\MysqlMutex;",
+		"description": "Use MysqlMutex class."
+	},
+	"use yii\\mutex\\OracleMutex": {
+		"prefix": "use yii\\mutex\\OracleMutex",
+		"body": "use yii\\mutex\\OracleMutex;",
+		"description": "Use OracleMutex class."
+	},
+	"use yii\\mutex\\PgsqlMutex": {
+		"prefix": "use yii\\mutex\\PgsqlMutex",
+		"body": "use yii\\mutex\\PgsqlMutex;",
+		"description": "Use PgsqlMutex class."
+	},
+	"use yii\\rbac\\Assignment": {
+		"prefix": "use yii\\rbac\\Assignment",
+		"body": "use yii\\rbac\\Assignment;",
+		"description": "Use Assignment class."
+	},
+	"use yii\\rbac\\BaseManager": {
+		"prefix": "use yii\\rbac\\BaseManager",
+		"body": "use yii\\rbac\\BaseManager;",
+		"description": "Use BaseManager class."
+	},
+	"use yii\\rbac\\CheckAccessInterface": {
+		"prefix": "use yii\\rbac\\CheckAccessInterface",
+		"body": "use yii\\rbac\\CheckAccessInterface;",
+		"description": "Use CheckAccessInterface class."
+	},
+	"use yii\\rbac\\DbManager": {
+		"prefix": "use yii\\rbac\\DbManager",
+		"body": "use yii\\rbac\\DbManager;",
+		"description": "Use DbManager class."
+	},
+	"use yii\\rbac\\Item": {
+		"prefix": "use yii\\rbac\\Item",
+		"body": "use yii\\rbac\\Item;",
+		"description": "Use Item class."
+	},
+	"use yii\\rbac\\ManagerInterface": {
+		"prefix": "use yii\\rbac\\ManagerInterface",
+		"body": "use yii\\rbac\\ManagerInterface;",
+		"description": "Use ManagerInterface class."
+	},
+	"use yii\\rbac\\Permission": {
+		"prefix": "use yii\\rbac\\Permission",
+		"body": "use yii\\rbac\\Permission;",
+		"description": "Use Permission class."
+	},
+	"use yii\\rbac\\PhpManager": {
+		"prefix": "use yii\\rbac\\PhpManager",
+		"body": "use yii\\rbac\\PhpManager;",
+		"description": "Use PhpManager class."
+	},
+	"use yii\\rbac\\Role": {
+		"prefix": "use yii\\rbac\\Role",
+		"body": "use yii\\rbac\\Role;",
+		"description": "Use Role class."
+	},
+	"use yii\\rbac\\Rule": {
+		"prefix": "use yii\\rbac\\Rule",
+		"body": "use yii\\rbac\\Rule;",
+		"description": "Use Rule class."
+	},
+	"use yii\\rest\\Action": {
+		"prefix": "use yii\\rest\\Action",
+		"body": "use yii\\rest\\Action;",
+		"description": "Use Action class."
+	},
+	"use yii\\rest\\ActiveController": {
+		"prefix": "use yii\\rest\\ActiveController",
+		"body": "use yii\\rest\\ActiveController;",
+		"description": "Use ActiveController class."
+	},
+	"use yii\\rest\\Controller": {
+		"prefix": "use yii\\rest\\Controller",
+		"body": "use yii\\rest\\Controller;",
+		"description": "Use Controller class."
+	},
+	"use yii\\rest\\CreateAction": {
+		"prefix": "use yii\\rest\\CreateAction",
+		"body": "use yii\\rest\\CreateAction;",
+		"description": "Use CreateAction class."
+	},
+	"use yii\\rest\\DeleteAction": {
+		"prefix": "use yii\\rest\\DeleteAction",
+		"body": "use yii\\rest\\DeleteAction;",
+		"description": "Use DeleteAction class."
+	},
+	"use yii\\rest\\IndexAction": {
+		"prefix": "use yii\\rest\\IndexAction",
+		"body": "use yii\\rest\\IndexAction;",
+		"description": "Use IndexAction class."
+	},
+	"use yii\\rest\\OptionsAction": {
+		"prefix": "use yii\\rest\\OptionsAction",
+		"body": "use yii\\rest\\OptionsAction;",
+		"description": "Use OptionsAction class."
+	},
+	"use yii\\rest\\Serializer": {
+		"prefix": "use yii\\rest\\Serializer",
+		"body": "use yii\\rest\\Serializer;",
+		"description": "Use Serializer class."
+	},
+	"use yii\\rest\\UpdateAction": {
+		"prefix": "use yii\\rest\\UpdateAction",
+		"body": "use yii\\rest\\UpdateAction;",
+		"description": "Use UpdateAction class."
+	},
+	"use yii\\rest\\UrlRule": {
+		"prefix": "use yii\\rest\\UrlRule",
+		"body": "use yii\\rest\\UrlRule;",
+		"description": "Use UrlRule class."
+	},
+	"use yii\\rest\\ViewAction": {
+		"prefix": "use yii\\rest\\ViewAction",
+		"body": "use yii\\rest\\ViewAction;",
+		"description": "Use ViewAction class."
+	},
+	"use yii\\test\\ActiveFixture": {
+		"prefix": "use yii\\test\\ActiveFixture",
+		"body": "use yii\\test\\ActiveFixture;",
+		"description": "Use ActiveFixture class."
+	},
+	"use yii\\test\\ArrayFixture": {
+		"prefix": "use yii\\test\\ArrayFixture",
+		"body": "use yii\\test\\ArrayFixture;",
+		"description": "Use ArrayFixture class."
+	},
+	"use yii\\test\\BaseActiveFixture": {
+		"prefix": "use yii\\test\\BaseActiveFixture",
+		"body": "use yii\\test\\BaseActiveFixture;",
+		"description": "Use BaseActiveFixture class."
+	},
+	"use yii\\test\\DbFixture": {
+		"prefix": "use yii\\test\\DbFixture",
+		"body": "use yii\\test\\DbFixture;",
+		"description": "Use DbFixture class."
+	},
+	"use yii\\test\\Fixture": {
+		"prefix": "use yii\\test\\Fixture",
+		"body": "use yii\\test\\Fixture;",
+		"description": "Use Fixture class."
+	},
+	"use yii\\test\\FixtureTrait": {
+		"prefix": "use yii\\test\\FixtureTrait",
+		"body": "use yii\\test\\FixtureTrait;",
+		"description": "Use FixtureTrait class."
+	},
+	"use yii\\test\\InitDbFixture": {
+		"prefix": "use yii\\test\\InitDbFixture",
+		"body": "use yii\\test\\InitDbFixture;",
+		"description": "Use InitDbFixture class."
+	},
+	"use yii\\validators\\BooleanValidator": {
+		"prefix": "use yii\\validators\\BooleanValidator",
+		"body": "use yii\\validators\\BooleanValidator;",
+		"description": "Use BooleanValidator class."
+	},
+	"use yii\\validators\\CompareValidator": {
+		"prefix": "use yii\\validators\\CompareValidator",
+		"body": "use yii\\validators\\CompareValidator;",
+		"description": "Use CompareValidator class."
+	},
+	"use yii\\validators\\DateValidator": {
+		"prefix": "use yii\\validators\\DateValidator",
+		"body": "use yii\\validators\\DateValidator;",
+		"description": "Use DateValidator class."
+	},
+	"use yii\\validators\\DefaultValidator": {
+		"prefix": "use yii\\validators\\DefaultValidator",
+		"body": "use yii\\validators\\DefaultValidator;",
+		"description": "Use DefaultValidator class."
+	},
+	"use yii\\validators\\EachValidator": {
+		"prefix": "use yii\\validators\\EachValidator",
+		"body": "use yii\\validators\\EachValidator;",
+		"description": "Use EachValidator class."
+	},
+	"use yii\\validators\\EmailValidator": {
+		"prefix": "use yii\\validators\\EmailValidator",
+		"body": "use yii\\validators\\EmailValidator;",
+		"description": "Use EmailValidator class."
+	},
+	"use yii\\validators\\ExistValidator": {
+		"prefix": "use yii\\validators\\ExistValidator",
+		"body": "use yii\\validators\\ExistValidator;",
+		"description": "Use ExistValidator class."
+	},
+	"use yii\\validators\\FileValidator": {
+		"prefix": "use yii\\validators\\FileValidator",
+		"body": "use yii\\validators\\FileValidator;",
+		"description": "Use FileValidator class."
+	},
+	"use yii\\validators\\FilterValidator": {
+		"prefix": "use yii\\validators\\FilterValidator",
+		"body": "use yii\\validators\\FilterValidator;",
+		"description": "Use FilterValidator class."
+	},
+	"use yii\\validators\\ImageValidator": {
+		"prefix": "use yii\\validators\\ImageValidator",
+		"body": "use yii\\validators\\ImageValidator;",
+		"description": "Use ImageValidator class."
+	},
+	"use yii\\validators\\InlineValidator": {
+		"prefix": "use yii\\validators\\InlineValidator",
+		"body": "use yii\\validators\\InlineValidator;",
+		"description": "Use InlineValidator class."
+	},
+	"use yii\\validators\\IpValidator": {
+		"prefix": "use yii\\validators\\IpValidator",
+		"body": "use yii\\validators\\IpValidator;",
+		"description": "Use IpValidator class."
+	},
+	"use yii\\validators\\NumberValidator": {
+		"prefix": "use yii\\validators\\NumberValidator",
+		"body": "use yii\\validators\\NumberValidator;",
+		"description": "Use NumberValidator class."
+	},
+	"use yii\\validators\\PunnycodeValidator": {
+		"prefix": "use yii\\validators\\PunnycodeValidator",
+		"body": "use yii\\validators\\PunnycodeValidator;",
+		"description": "Use PunnycodeValidator class."
+	},
+	"use yii\\validators\\RangeValidator": {
+		"prefix": "use yii\\validators\\RangeValidator",
+		"body": "use yii\\validators\\RangeValidator;",
+		"description": "Use RangeValidator class."
+	},
+	"use yii\\validators\\RegularExpressionValidator": {
+		"prefix": "use yii\\validators\\RegularExpressionValidator",
+		"body": "use yii\\validators\\RegularExpressionValidator;",
+		"description": "Use RegularExpressionValidator class."
+	},
+	"use yii\\validators\\RequiredValidator": {
+		"prefix": "use yii\\validators\\RequiredValidator",
+		"body": "use yii\\validators\\RequiredValidator;",
+		"description": "Use RequiredValidator class."
+	},
+	"use yii\\validators\\SafeValidator": {
+		"prefix": "use yii\\validators\\SafeValidator",
+		"body": "use yii\\validators\\SafeValidator;",
+		"description": "Use SafeValidator class."
+	},
+	"use yii\\validators\\StringValidator": {
+		"prefix": "use yii\\validators\\StringValidator",
+		"body": "use yii\\validators\\StringValidator;",
+		"description": "Use StringValidator class."
+	},
+	"use yii\\validators\\UniqueValidator": {
+		"prefix": "use yii\\validators\\UniqueValidator",
+		"body": "use yii\\validators\\UniqueValidator;",
+		"description": "Use UniqueValidator class."
+	},
+	"use yii\\validators\\UrlValidator": {
+		"prefix": "use yii\\validators\\UrlValidator",
+		"body": "use yii\\validators\\UrlValidator;",
+		"description": "Use UrlValidator class."
+	},
+	"use yii\\validators\\ValidationAsset": {
+		"prefix": "use yii\\validators\\ValidationAsset",
+		"body": "use yii\\validators\\ValidationAsset;",
+		"description": "Use ValidationAsset class."
+	},
+	"use yii\\validators\\Validator": {
+		"prefix": "use yii\\validators\\Validator",
+		"body": "use yii\\validators\\Validator;",
+		"description": "Use Validator class."
+	},
+	"use yii\\web\\Application": {
+		"prefix": "use yii\\web\\Application",
+		"body": "use yii\\web\\Application;",
+		"description": "Use Application class."
+	},
+	"use yii\\web\\AssetBundle": {
+		"prefix": "use yii\\web\\AssetBundle",
+		"body": "use yii\\web\\AssetBundle;",
+		"description": "Use AssetBundle class."
+	},
+	"use yii\\web\\AssetConverter": {
+		"prefix": "use yii\\web\\AssetConverter",
+		"body": "use yii\\web\\AssetConverter;",
+		"description": "Use AssetConverter class."
+	},
+	"use yii\\web\\AssetConverterInterface": {
+		"prefix": "use yii\\web\\AssetConverterInterface",
+		"body": "use yii\\web\\AssetConverterInterface;",
+		"description": "Use AssetConverterInterface class."
+	},
+	"use yii\\web\\AssetManager": {
+		"prefix": "use yii\\web\\AssetManager",
+		"body": "use yii\\web\\AssetManager;",
+		"description": "Use AssetManager class."
+	},
+	"use yii\\web\\BadRequestHttpException": {
+		"prefix": "use yii\\web\\BadRequestHttpException",
+		"body": "use yii\\web\\BadRequestHttpException;",
+		"description": "Use BadRequestHttpException class."
+	},
+	"use yii\\web\\CacheSession": {
+		"prefix": "use yii\\web\\CacheSession",
+		"body": "use yii\\web\\CacheSession;",
+		"description": "Use CacheSession class."
+	},
+	"use yii\\web\\CompositeUrlRule": {
+		"prefix": "use yii\\web\\CompositeUrlRule",
+		"body": "use yii\\web\\CompositeUrlRule;",
+		"description": "Use CompositeUrlRule class."
+	},
+	"use yii\\web\\ConflictHttpException": {
+		"prefix": "use yii\\web\\ConflictHttpException",
+		"body": "use yii\\web\\ConflictHttpException;",
+		"description": "Use ConflictHttpException class."
+	},
+	"use yii\\web\\Controller": {
+		"prefix": "use yii\\web\\Controller",
+		"body": "use yii\\web\\Controller;",
+		"description": "Use Controller class."
+	},
+	"use yii\\web\\Cookie": {
+		"prefix": "use yii\\web\\Cookie",
+		"body": "use yii\\web\\Cookie;",
+		"description": "Use Cookie class."
+	},
+	"use yii\\web\\CookieCollection": {
+		"prefix": "use yii\\web\\CookieCollection",
+		"body": "use yii\\web\\CookieCollection;",
+		"description": "Use CookieCollection class."
+	},
+	"use yii\\web\\DbSesion": {
+		"prefix": "use yii\\web\\DbSesion",
+		"body": "use yii\\web\\DbSesion;",
+		"description": "Use DbSesion class."
+	},
+	"use yii\\web\\ErrorAction": {
+		"prefix": "use yii\\web\\ErrorAction",
+		"body": "use yii\\web\\ErrorAction;",
+		"description": "Use ErrorAction class."
+	},
+	"use yii\\web\\ErrorHandler": {
+		"prefix": "use yii\\web\\ErrorHandler",
+		"body": "use yii\\web\\ErrorHandler;",
+		"description": "Use ErrorHandler class."
+	},
+	"use yii\\web\\ForbiddenHttpException": {
+		"prefix": "use yii\\web\\ForbiddenHttpException",
+		"body": "use yii\\web\\ForbiddenHttpException;",
+		"description": "Use ForbiddenHttpException class."
+	},
+	"use yii\\web\\GonehttpException": {
+		"prefix": "use yii\\web\\GonehttpException",
+		"body": "use yii\\web\\GonehttpException;",
+		"description": "Use GonehttpException class."
+	},
+	"use yii\\web\\GroupUrlRule": {
+		"prefix": "use yii\\web\\GroupUrlRule",
+		"body": "use yii\\web\\GroupUrlRule;",
+		"description": "Use GroupUrlRule class."
+	},
+	"use yii\\web\\HeaderCollection": {
+		"prefix": "use yii\\web\\HeaderCollection",
+		"body": "use yii\\web\\HeaderCollection;",
+		"description": "Use HeaderCollection class."
+	},
+	"use yii\\web\\HtmlresponseFormatter": {
+		"prefix": "use yii\\web\\HtmlresponseFormatter",
+		"body": "use yii\\web\\HtmlresponseFormatter;",
+		"description": "Use HtmlresponseFormatter class."
+	},
+	"use yii\\web\\HttpException": {
+		"prefix": "use yii\\web\\HttpException",
+		"body": "use yii\\web\\HttpException;",
+		"description": "Use HttpException class."
+	},
+	"use yii\\web\\IdentityInterface": {
+		"prefix": "use yii\\web\\IdentityInterface",
+		"body": "use yii\\web\\IdentityInterface;",
+		"description": "Use IdentityInterface class."
+	},
+	"use yii\\web\\JqueryAsset": {
+		"prefix": "use yii\\web\\JqueryAsset",
+		"body": "use yii\\web\\JqueryAsset;",
+		"description": "Use JqueryAsset class."
+	},
+	"use yii\\web\\JsExpression": {
+		"prefix": "use yii\\web\\JsExpression",
+		"body": "use yii\\web\\JsExpression;",
+		"description": "Use JsExpression class."
+	},
+	"use yii\\web\\JsonParser": {
+		"prefix": "use yii\\web\\JsonParser",
+		"body": "use yii\\web\\JsonParser;",
+		"description": "Use JsonParser class."
+	},
+	"use yii\\web\\JsonResponseFormatter": {
+		"prefix": "use yii\\web\\JsonResponseFormatter",
+		"body": "use yii\\web\\JsonResponseFormatter;",
+		"description": "Use JsonResponseFormatter class."
+	},
+	"use yii\\web\\Link": {
+		"prefix": "use yii\\web\\Link",
+		"body": "use yii\\web\\Link;",
+		"description": "Use Link class."
+	},
+	"use yii\\web\\Linkable": {
+		"prefix": "use yii\\web\\Linkable",
+		"body": "use yii\\web\\Linkable;",
+		"description": "Use Linkable class."
+	},
+	"use yii\\web\\MethodNotAllowedException": {
+		"prefix": "use yii\\web\\MethodNotAllowedException",
+		"body": "use yii\\web\\MethodNotAllowedException;",
+		"description": "Use MethodNotAllowedException class."
+	},
+	"use yii\\web\\MultiFieldSession": {
+		"prefix": "use yii\\web\\MultiFieldSession",
+		"body": "use yii\\web\\MultiFieldSession;",
+		"description": "Use MultiFieldSession class."
+	},
+	"use yii\\web\\MultipartFormDataParser": {
+		"prefix": "use yii\\web\\MultipartFormDataParser",
+		"body": "use yii\\web\\MultipartFormDataParser;",
+		"description": "Use MultipartFormDataParser class."
+	},
+	"use yii\\web\\NotAcceptableHttpException": {
+		"prefix": "use yii\\web\\NotAcceptableHttpException",
+		"body": "use yii\\web\\NotAcceptableHttpException;",
+		"description": "Use NotAcceptableHttpException class."
+	},
+	"use yii\\web\\NotFoundHttpException": {
+		"prefix": "use yii\\web\\NotFoundHttpException",
+		"body": "use yii\\web\\NotFoundHttpException;",
+		"description": "Use NotFoundHttpException class."
+	},
+	"use yii\\web\\RangeNotSatisfiablehttpException": {
+		"prefix": "use yii\\web\\RangeNotSatisfiablehttpException",
+		"body": "use yii\\web\\RangeNotSatisfiablehttpException;",
+		"description": "Use RangeNotSatisfiablehttpException class."
+	},
+	"use yii\\web\\Request": {
+		"prefix": "use yii\\web\\Request",
+		"body": "use yii\\web\\Request;",
+		"description": "Use Request class."
+	},
+	"use yii\\web\\RequestParserInterface": {
+		"prefix": "use yii\\web\\RequestParserInterface",
+		"body": "use yii\\web\\RequestParserInterface;",
+		"description": "Use RequestParserInterface class."
+	},
+	"use yii\\web\\Response": {
+		"prefix": "use yii\\web\\Response",
+		"body": "use yii\\web\\Response;",
+		"description": "Use Response class."
+	},
+	"use yii\\web\\ResponseFormatterInterface": {
+		"prefix": "use yii\\web\\ResponseFormatterInterface",
+		"body": "use yii\\web\\ResponseFormatterInterface;",
+		"description": "Use ResponseFormatterInterface class."
+	},
+	"use yii\\web\\ServerErrorHttpException": {
+		"prefix": "use yii\\web\\ServerErrorHttpException",
+		"body": "use yii\\web\\ServerErrorHttpException;",
+		"description": "Use ServerErrorHttpException class."
+	},
+	"use yii\\web\\Session": {
+		"prefix": "use yii\\web\\Session",
+		"body": "use yii\\web\\Session;",
+		"description": "Use Session class."
+	},
+	"use yii\\web\\SessionIterator": {
+		"prefix": "use yii\\web\\SessionIterator",
+		"body": "use yii\\web\\SessionIterator;",
+		"description": "Use SessionIterator class."
+	},
+	"use yii\\web\\TooManyRequestHttpException": {
+		"prefix": "use yii\\web\\TooManyRequestHttpException",
+		"body": "use yii\\web\\TooManyRequestHttpException;",
+		"description": "Use TooManyRequestHttpException class."
+	},
+	"use yii\\web\\UnauthorizedHttpException": {
+		"prefix": "use yii\\web\\UnauthorizedHttpException",
+		"body": "use yii\\web\\UnauthorizedHttpException;",
+		"description": "Use UnauthorizedHttpException class."
+	},
+	"use yii\\web\\UnprocessableEntityHttpException": {
+		"prefix": "use yii\\web\\UnprocessableEntityHttpException",
+		"body": "use yii\\web\\UnprocessableEntityHttpException;",
+		"description": "Use UnprocessableEntityHttpException class."
+	},
+	"use yii\\web\\UnsupportedMediaTypeHttpException": {
+		"prefix": "use yii\\web\\UnsupportedMediaTypeHttpException",
+		"body": "use yii\\web\\UnsupportedMediaTypeHttpException;",
+		"description": "Use UnsupportedMediaTypeHttpException class."
+	},
+	"use yii\\web\\UploadedFile": {
+		"prefix": "use yii\\web\\UploadedFile",
+		"body": "use yii\\web\\UploadedFile;",
+		"description": "Use UploadedFile class."
+	},
+	"use yii\\web\\UrlManager": {
+		"prefix": "use yii\\web\\UrlManager",
+		"body": "use yii\\web\\UrlManager;",
+		"description": "Use UrlManager class."
+	},
+	"use yii\\web\\UrlNormalizer": {
+		"prefix": "use yii\\web\\UrlNormalizer",
+		"body": "use yii\\web\\UrlNormalizer;",
+		"description": "Use UrlNormalizer class."
+	},
+	"use yii\\web\\UrlNormalizerRedirectException": {
+		"prefix": "use yii\\web\\UrlNormalizerRedirectException",
+		"body": "use yii\\web\\UrlNormalizerRedirectException;",
+		"description": "Use UrlNormalizerRedirectException class."
+	},
+	"use yii\\web\\UrlRule": {
+		"prefix": "use yii\\web\\UrlRule",
+		"body": "use yii\\web\\UrlRule;",
+		"description": "Use UrlRule class."
+	},
+	"use yii\\web\\UrlRuleInterface": {
+		"prefix": "use yii\\web\\UrlRuleInterface",
+		"body": "use yii\\web\\UrlRuleInterface;",
+		"description": "Use UrlRuleInterface class."
+	},
+	"use yii\\web\\user": {
+		"prefix": "use yii\\web\\user",
+		"body": "use yii\\web\\user;",
+		"description": "Use user class."
+	},
+	"use yii\\web\\UserEvent": {
+		"prefix": "use yii\\web\\UserEvent",
+		"body": "use yii\\web\\UserEvent;",
+		"description": "Use UserEvent class."
+	},
+	"use yii\\web\\View": {
+		"prefix": "use yii\\web\\View",
+		"body": "use yii\\web\\View;",
+		"description": "Use View class."
+	},
+	"use yii\\web\\ViewAction": {
+		"prefix": "use yii\\web\\ViewAction",
+		"body": "use yii\\web\\ViewAction;",
+		"description": "Use ViewAction class."
+	},
+	"use yii\\web\\XmlResponseFormatter": {
+		"prefix": "use yii\\web\\XmlResponseFormatter",
+		"body": "use yii\\web\\XmlResponseFormatter;",
+		"description": "Use XmlResponseFormatter class."
+	},
+	"use yii\\web\\YiiAsset": {
+		"prefix": "use yii\\web\\Application",
+		"body": "use yii\\web\\Application;",
+		"description": "Use Application class."
+	},
+	"use yii\\widgets\\ActiveField": {
+		"prefix": "use yii\\widgets\\ActiveField",
+		"body": "use yii\\widgets\\ActiveField;",
+		"description": "Use ActiveField class."
+	},
+	"use yii\\widgets\\ActiveForm": {
+		"prefix": "use yii\\widgets\\ActiveForm",
+		"body": "use yii\\widgets\\ActiveForm;",
+		"description": "Use ActiveForm class."
+	},
+	"use yii\\widgets\\ActiveFormAsset": {
+		"prefix": "use yii\\widgets\\ActiveFormAsset",
+		"body": "use yii\\widgets\\ActiveFormAsset;",
+		"description": "Use ActiveFormAsset class."
+	},
+	"use yii\\widgets\\BaseListView": {
+		"prefix": "use yii\\widgets\\BaseListView",
+		"body": "use yii\\widgets\\BaseListView;",
+		"description": "Use BaseListView class."
+	},
+	"use yii\\widgets\\Block": {
+		"prefix": "use yii\\widgets\\Block",
+		"body": "use yii\\widgets\\Block;",
+		"description": "Use Block class."
+	},
+	"use yii\\widgets\\Vreadcrumbs": {
+		"prefix": "use yii\\widgets\\Vreadcrumbs",
+		"body": "use yii\\widgets\\Vreadcrumbs;",
+		"description": "Use Vreadcrumbs class."
+	},
+	"use yii\\widgets\\ContentDecorator": {
+		"prefix": "use yii\\widgets\\ContentDecorator",
+		"body": "use yii\\widgets\\ContentDecorator;",
+		"description": "Use ContentDecorator class."
+	},
+	"use yii\\widgets\\DetailView": {
+		"prefix": "use yii\\widgets\\DetailView",
+		"body": "use yii\\widgets\\DetailView;",
+		"description": "Use DetailView class."
+	},
+	"use yii\\widgets\\FragmentCache": {
+		"prefix": "use yii\\widgets\\FragmentCache",
+		"body": "use yii\\widgets\\FragmentCache;",
+		"description": "Use FragmentCache class."
+	},
+	"use yii\\widgets\\InputWidget": {
+		"prefix": "use yii\\widgets\\InputWidget",
+		"body": "use yii\\widgets\\InputWidget;",
+		"description": "Use InputWidget class."
+	},
+	"use yii\\widgets\\LinkPager": {
+		"prefix": "use yii\\widgets\\LinkPager",
+		"body": "use yii\\widgets\\LinkPager;",
+		"description": "Use LinkPager class."
+	},
+	"use yii\\widgets\\LinkSorter": {
+		"prefix": "use yii\\widgets\\LinkSorter",
+		"body": "use yii\\widgets\\LinkSorter;",
+		"description": "Use LinkSorter class."
+	},
+	"use yii\\widgets\\ListView": {
+		"prefix": "use yii\\widgets\\ListView",
+		"body": "use yii\\widgets\\ListView;",
+		"description": "Use ListView class."
+	},
+	"use yii\\widgets\\MaskedInput": {
+		"prefix": "use yii\\widgets\\MaskedInput",
+		"body": "use yii\\widgets\\MaskedInput;",
+		"description": "Use MaskedInput class."
+	},
+	"use yii\\widgets\\MaskedInputAsset": {
+		"prefix": "use yii\\widgets\\MaskedInputAsset",
+		"body": "use yii\\widgets\\MaskedInputAsset;",
+		"description": "Use MaskedInputAsset class."
+	},
+	"use yii\\widgets\\Menu": {
+		"prefix": "use yii\\widgets\\Menu",
+		"body": "use yii\\widgets\\Menu;",
+		"description": "Use Menu class."
+	},
+	"use yii\\widgets\\Pjax": {
+		"prefix": "use yii\\widgets\\Pjax",
+		"body": "use yii\\widgets\\Pjax;",
+		"description": "Use Pjax class."
+	},
+	"use yii\\widgets\\PjaxAsset": {
+		"prefix": "use yii\\widgets\\PjaxAsset",
+		"body": "use yii\\widgets\\PjaxAsset;",
+		"description": "Use PjaxAsset class."
+	},
+	"use yii\\widgets\\Spaceless": {
+		"prefix": "use yii\\widgets\\Spaceless",
+		"body": "use yii\\widgets\\Spaceless;",
+		"description": "Use Spaceless class."
+	}
+}
