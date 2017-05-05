@@ -1,3 +1,7 @@
 {
-	
+    "->where()": {
+		"prefix": "->where",
+		"body": "->where(${[]})$3",
+		"description": "Where condition."
+	}
 }
