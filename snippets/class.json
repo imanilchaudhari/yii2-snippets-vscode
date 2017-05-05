@@ -394,25 +394,25 @@
 		"body": "use yii\\console\\UnkonwnCommandException;",
 		"description": "Use UnkonwnCommandException class."
 	},
-	"use yii\\data\\ActiveDataProbider": {
-		"prefix": "use yii\\data\\ActiveDataProbider",
-		"body": "use yii\\data\\ActiveDataProbider;",
-		"description": "Use ActiveDataProbider class."
+	"use yii\\data\\ActiveDataProvider": {
+		"prefix": "use yii\\data\\ActiveDataProvider",
+		"body": "use yii\\data\\ActiveDataProvider;",
+		"description": "Use ActiveDataProvider class."
 	},
-	"use yii\\data\\ArrayDataProbider": {
-		"prefix": "use yii\\data\\ArrayDataProbider",
-		"body": "use yii\\data\\ArrayDataProbider;",
-		"description": "Use ArrayDataProbider class."
+	"use yii\\data\\ArrayDataProvider": {
+		"prefix": "use yii\\data\\ArrayDataProvider",
+		"body": "use yii\\data\\ArrayDataProvider;",
+		"description": "Use ArrayDataProvider class."
 	},
-	"use yii\\data\\BaseDataProbider": {
-		"prefix": "use yii\\data\\BaseDataProbider",
-		"body": "use yii\\data\\BaseDataProbider;",
-		"description": "Use BaseDataProbider class."
+	"use yii\\data\\BaseDataProvider": {
+		"prefix": "use yii\\data\\BaseDataProvider",
+		"body": "use yii\\data\\BaseDataProvider;",
+		"description": "Use BaseDataProvider class."
 	},
-	"use yii\\data\\DataProbiderInterface": {
-		"prefix": "use yii\\data\\DataProbiderInterface",
-		"body": "use yii\\data\\DataProbiderInterface;",
-		"description": "Use DataProbiderInterface class."
+	"use yii\\data\\DataProviderInterface": {
+		"prefix": "use yii\\data\\DataProviderInterface",
+		"body": "use yii\\data\\DataProviderInterface;",
+		"description": "Use DataProviderInterface class."
 	},
 	"use yii\\data\\Pagination": {
 		"prefix": "use yii\\data\\Pagination",
