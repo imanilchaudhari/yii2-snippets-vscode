@@ -2,7 +2,7 @@
     "name": "yii2-snippets",
     "displayName": "Yii2 Snippets",
     "description": "Yii2 snippets for Visual Studio Code",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "publisher": "imanilchaudhari",
     "keywords": [
         "yii2",
@@ -353,83 +353,83 @@
             },
             {
                 "language": "php",
-                "path": "./snippets/validotors/boolean-validotors.json"
+                "path": "./snippets/validators/boolean-validator.json"
             },
             {
                 "language": "php",
-                "path": "./snippets/validotors/compare-validotors.json"
+                "path": "./snippets/validators/compare-validator.json"
             },
             {
                 "language": "php",
-                "path": "./snippets/validotors/date-validotors.json"
+                "path": "./snippets/validators/date-validator.json"
             },
             {
                 "language": "php",
-                "path": "./snippets/validotors/default-value-validotors.json"
+                "path": "./snippets/validators/default-value-validator.json"
             },
             {
                 "language": "php",
-                "path": "./snippets/validotors/each-validotors.json"
+                "path": "./snippets/validators/each-validator.json"
             },
             {
                 "language": "php",
-                "path": "./snippets/validotors/email-validotors.json"
+                "path": "./snippets/validators/email-validator.json"
             },
             {
                 "language": "php",
-                "path": "./snippets/validotors/exists-validotors.json"
+                "path": "./snippets/validators/exists-validator.json"
             },
             {
                 "language": "php",
-                "path": "./snippets/validotors/file-validotors.json"
+                "path": "./snippets/validators/file-validator.json"
             },
             {
                 "language": "php",
-                "path": "./snippets/validotors/filter-validotors.json"
+                "path": "./snippets/validators/filter-validator.json"
             },
             {
                 "language": "php",
-                "path": "./snippets/validotors/image-validotors.json"
+                "path": "./snippets/validators/image-validator.json"
             },
             {
                 "language": "php",
-                "path": "./snippets/validotors/inline-validotors.json"
+                "path": "./snippets/validators/inline-validator.json"
             },
             {
                 "language": "php",
-                "path": "./snippets/validotors/ip-validotors.json"
+                "path": "./snippets/validators/ip-validator.json"
             },
             {
                 "language": "php",
-                "path": "./snippets/validotors/number-validotors.json"
+                "path": "./snippets/validators/number-validator.json"
             },
             {
                 "language": "php",
-                "path": "./snippets/validotors/range-validotors.json"
+                "path": "./snippets/validators/range-validator.json"
             },
             {
                 "language": "php",
-                "path": "./snippets/validotors/regular-expression-validotors.json"
+                "path": "./snippets/validators/regular-expression-validator.json"
             },
             {
                 "language": "php",
-                "path": "./snippets/validotors/required-validotors.json"
+                "path": "./snippets/validators/required-validator.json"
             },
             {
                 "language": "php",
-                "path": "./snippets/validotors/safe-validotors.json"
+                "path": "./snippets/validators/safe-validator.json"
             },
             {
                 "language": "php",
-                "path": "./snippets/validotors/string-validotors.json"
+                "path": "./snippets/validators/string-validator.json"
             },
             {
                 "language": "php",
-                "path": "./snippets/validotors/unique-validotors.json"
+                "path": "./snippets/validators/unique-validator.json"
             },
             {
                 "language": "php",
-                "path": "./snippets/validotors/url-validotors.json"
+                "path": "./snippets/validators/url-validator.json"
             },
             {
                 "language": "php",
@@ -517,7 +517,7 @@
             },
             {
                 "language": "php",
-                "path": "./snippets/web/json-oarser.json"
+                "path": "./snippets/web/json-parser.json"
             },
             {
                 "language": "php",
@@ -577,7 +577,7 @@
             },
             {
                 "language": "php",
-                "path": "./snippets/web/unauthorised-http-exception.json"
+                "path": "./snippets/web/unauthorized-http-exception.json"
             },
             {
                 "language": "php",
@@ -685,7 +685,7 @@
             },
             {
                 "language": "php",
-                "path": "./snippets/widgets/apaceless.json"
+                "path": "./snippets/widgets/spaceless.json"
             }
         ]
     },

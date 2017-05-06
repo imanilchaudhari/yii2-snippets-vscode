@@ -1234,10 +1234,10 @@
 		"body": "use yii\\web\\HeaderCollection;",
 		"description": "Use HeaderCollection class."
 	},
-	"use yii\\web\\HtmlresponseFormatter": {
-		"prefix": "use yii\\web\\HtmlresponseFormatter",
-		"body": "use yii\\web\\HtmlresponseFormatter;",
-		"description": "Use HtmlresponseFormatter class."
+	"use yii\\web\\HtmlResponseFormatter": {
+		"prefix": "use yii\\web\\HtmlResponseFormatter",
+		"body": "use yii\\web\\HtmlResponseFormatter;",
+		"description": "Use HtmlResponseFormatter class."
 	},
 	"use yii\\web\\HttpException": {
 		"prefix": "use yii\\web\\HttpException",
@@ -1394,10 +1394,10 @@
 		"body": "use yii\\web\\UrlRuleInterface;",
 		"description": "Use UrlRuleInterface class."
 	},
-	"use yii\\web\\user": {
-		"prefix": "use yii\\web\\user",
-		"body": "use yii\\web\\user;",
-		"description": "Use user class."
+	"use yii\\web\\User": {
+		"prefix": "use yii\\web\\User",
+		"body": "use yii\\web\\User;",
+		"description": "Use User class."
 	},
 	"use yii\\web\\UserEvent": {
 		"prefix": "use yii\\web\\UserEvent",
