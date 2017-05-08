@@ -1,3 +1,82 @@
 {
-
+	"Inflector::camel2id": {
+		"prefix": "Inflector::camel2id",
+		"body": "Inflector::camel2id(${\\$name}, ${\\$separator = '-'}, ${\\$strict = false})$3",
+		"description": "Creats a tring from camelcase to id."
+	},
+	"Inflector::camel2words": {
+		"prefix": "Inflector::camel2words",
+		"body": "Inflector::camel2words(${\\$name}, ${\\$ucwords = true})$3",
+		"description": "Creats a string from camelcase to words."
+	},
+	"Inflector::camelize": {
+		"prefix": "Inflector::camelize",
+		"body": "Inflector::camelize(${\\$words})$3",
+		"description": "Creats camelize words."
+	},
+	"Inflector::classify": {
+		"prefix": "Inflector::classify",
+		"body": "Inflector::classify(${\\$tableName})$3",
+		"description": "Classify a table name"
+	},
+	"Inflector::humanize": {
+		"prefix": "Inflector::humanize",
+		"body": "Inflector::humanize(${\\$word}, ${\\$ucAll = false})$3",
+		"description": "Creats humanize words."
+	},
+	"Inflector::id2camel": {
+		"prefix": "Inflector::id2camel",
+		"body": "Inflector::id2camel(${\\$id}, ${\\$separator = '-'})$3",
+		"description": "Creats string from id to camelcase."
+	},
+	"Inflector::ordinalize": {
+		"prefix": "Inflector::ordinalize",
+		"body": "Inflector::ordinalize(${\\$number})$3",
+		"description": "Ordinalize number."
+	},
+	"Inflector::pluralize": {
+		"prefix": "Inflector::pluralize",
+		"body": "Inflector::pluralize(${\\$word})$3",
+		"description": "Pluralize word."
+	},
+	"Inflector::sentence": {
+		"prefix": "Inflector::sentence",
+		"body": "Inflector::sentence(${array \\$word}, ${\\$twoWordsConnector = null}, ${\\$lastWordConnector = null}, ${\\$connector = ','})$3",
+		"description": "Create sectence from array."
+	},
+	"Inflector::singularize": {
+		"prefix": "Inflector::singularize",
+		"body": "Inflector::singularize(${\\$word})$3",
+		"description": "Singularize word."
+	},
+	"Inflector::slug": {
+		"prefix": "Inflector::slug",
+		"body": "Inflector::slug(${\\$string}, ${\\$replacement = '-'}, ${\\$lowercase = true})$3",
+		"description": "Creats a slugify string."
+	},
+	"Inflector::tableize": {
+		"prefix": "Inflector::tableize",
+		"body": "Inflector::tableize(${\\$className})$3",
+		"description": "Creats a tableize string."
+	},
+	"Inflector::titleize": {
+		"prefix": "Inflector::titleize",
+		"body": "Inflector::titleize(${\\$words}, ${\\$ucAll})$3",
+		"description": "Creats a titleize string."
+	},
+	"Inflector::transliterate": {
+		"prefix": "Inflector::transliterate",
+		"body": "Inflector::transliterate(${\\$string}, ${\\$transliterator = null})$3",
+		"description": "Creats a transliterate string."
+	},
+	"Inflector::underscore": {
+		"prefix": "Inflector::underscore",
+		"body": "Inflector::underscore(${\\$words})$3",
+		"description": "Creats a underscore string."
+	},
+	"Inflector::variablize": {
+		"prefix": "Inflector::variablize",
+		"body": "Inflector::variablize(${\\$word})$3",
+		"description": "Creats a variablize string."
+	}
 }
