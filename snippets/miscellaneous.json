@@ -1,17 +1,97 @@
 {
-	"render": {
-		"prefix": "render",
-		"body": "\\$this->render('${views}', ${\\$options = []});",
-		"description": "Render view file."
+    "use ZipArchive": {
+		"prefix": "use ZipArchive",
+		"body": "use ZipArchive;",
+		"description": "Use ZipArchive"
 	},
-	"renderPartial": {
-		"prefix": "renderPartial",
-		"body": "\\$this->renderPartial('${views}', ${\\$options = []});",
-		"description": "Render Partial view file."
+    "use DomDocument": {
+		"prefix": "use DomDocument",
+		"body": "use DomDocument;",
+		"description": "Use DomDocument"
 	},
-	"renderAjax": {
-		"prefix": "renderAjax",
-		"body": "\\$this->renderAjax('${views}', ${\\$options = []});",
-		"description": "Render Ajax view file."
-	}
+    "use DomElement": {
+		"prefix": "use DomElement",
+		"body": "use DomElement;",
+		"description": "Use DomElement"
+	},
+    "use DomText": {
+		"prefix": "use DomText",
+		"body": "use DomText;",
+		"description": "Use DomText"
+	},
+    "use SimpleXMLElement": {
+		"prefix": "use SimpleXMLElement",
+		"body": "use SimpleXMLElement;",
+		"description": "Use SimpleXMLElement"
+	},
+    "use ReflectionClass": {
+        "prefix": "use ReflectionClass",
+        "body": "use ReflectionClass;",
+        "description": "Use ReflectionClass"
+    },
+    "use Exception": {
+        "prefix": "use Exception",
+        "body": "use Exception;",
+        "description": "Use Exception"
+    },
+	"Function Header" : {
+		"prefix": "Function Header",
+		"body": [
+			"/**",
+			"* ${function_description}.",
+			"*",
+			"* @param int|null $post",
+			"* @return string",
+			"* @throws NotFoundHttpException",
+			"*/"
+		],
+		"description": "Function Header"
+	},
+	"For Loop": {
+        "prefix": "for",
+        "body": [
+            "for (var ${index} = 0; ${index} < ${array}.length; ${index}++) {",
+            "\tvar ${element} = ${array}[${index}];",
+            "\t$0",
+            "}"
+        ],
+        "description": "For Loop"
+    },
+	"Foreach Loop": {
+        "prefix": "Foreach",
+        "body": [
+            "foreach (${\\$array} as ${\\$key} => ${\\$value}):",
+            "\t${/** code **/}",
+            "endforeach;"
+        ],
+        "description": "Foreach Loop"
+    },
+    "Do Loop": {
+        "prefix": "Foreach",
+        "body": [
+            "foreach (${\\$array} as ${\\$key} => ${\\$value}):",
+            "\t${/** code **/}",
+            "endforeach;"
+        ],
+        "description": "Foreach Loop"
+    },
+    "Do While Loop": {
+        "prefix": "Foreach",
+        "body": [
+            "foreach (${\\$array} as ${\\$key} => ${\\$value}):",
+            "\t${/** code **/}",
+            "endforeach;"
+        ],
+        "description": "Foreach Loop"
+    },
+	"print_r": {
+        "prefix": "print_r",
+        "body": [
+			"echo \"<pre>\";",
+			"print_r(${\\$data});",
+			"echo \"</pre>\";",
+            "${exit();}"
+        ],
+        "description": "print_r"
+    }
 }

@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.0.8 (May 20, 2017)
+- Added: classes use features of yii2-bootstrap
+- Added: usefull php functions
+
 ## 0.0.7 (May 8, 2017)
 - Added: Inflector functions
 

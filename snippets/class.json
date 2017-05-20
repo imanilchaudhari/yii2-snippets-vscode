@@ -1518,5 +1518,115 @@
 		"prefix": "use yii\\widgets\\Spaceless",
 		"body": "use yii\\widgets\\Spaceless;",
 		"description": "Use Spaceless class."
+	},
+	"use yii\\bootstrap\\ActiveField": {
+		"prefix": "use yii\\bootstrap\\ActiveField",
+		"body": "use yii\\bootstrap\\ActiveField;",
+		"description": "Use ActiveField class."
+	},
+	"use yii\\bootstrap\\ActiveForm": {
+		"prefix": "use yii\\bootstrap\\ActiveForm",
+		"body": "use yii\\bootstrap\\ActiveForm;",
+		"description": "Use ActiveForm class."
+	},
+	"use yii\\bootstrap\\Alert": {
+		"prefix": "use yii\\bootstrap\\Alert",
+		"body": "use yii\\bootstrap\\Alert;",
+		"description": "Use Alert class."
+	},
+	"use yii\\bootstrap\\BootstrapAsset": {
+		"prefix": "use yii\\bootstrap\\BootstrapAsset",
+		"body": "use yii\\bootstrap\\BootstrapAsset;",
+		"description": "Use BootstrapAsset class."
+	},
+	"use yii\\bootstrap\\BootstrapPluginAsset": {
+		"prefix": "use yii\\bootstrap\\BootstrapPluginAsset",
+		"body": "use yii\\bootstrap\\BootstrapPluginAsset;",
+		"description": "Use BootstrapPluginAsset class."
+	},
+	"use yii\\bootstrap\\BootstrapThemeAsset": {
+		"prefix": "use yii\\bootstrap\\BootstrapThemeAsset",
+		"body": "use yii\\bootstrap\\BootstrapThemeAsset;",
+		"description": "Use Bootstrap Theme class."
+	},
+	"use yii\\bootstrap\\BootstrapWidgetTrait": {
+		"prefix": "use yii\\bootstrap\\BootstrapWidgetTrait",
+		"body": "use yii\\bootstrap\\BootstrapWidgetTrait;",
+		"description": "Use BootstrapWidgetTrait class."
+	},
+	"use yii\\bootstrap\\Button": {
+		"prefix": "use yii\\bootstrap\\Button",
+		"body": "use yii\\bootstrap\\Button;",
+		"description": "Use Button class."
+	},
+	"use yii\\bootstrap\\BootstrapDropdown": {
+		"prefix": "use yii\\bootstrap\\BootstrapDropdown",
+		"body": "use yii\\bootstrap\\BootstrapDropdown;",
+		"description": "Use BootstrapDropdown class."
+	},
+	"use yii\\bootstrap\\BootstrapGroup": {
+		"prefix": "use yii\\bootstrap\\BootstrapGroup",
+		"body": "use yii\\bootstrap\\BootstrapGroup;",
+		"description": "Use BootstrapGroup class."
+	},
+	"use yii\\bootstrap\\Carousel": {
+		"prefix": "use yii\\bootstrap\\Carousel",
+		"body": "use yii\\bootstrap\\Carousel;",
+		"description": "Use Carousel class."
+	},
+	"use yii\\bootstrap\\Collapse": {
+		"prefix": "use yii\\bootstrap\\Collapse",
+		"body": "use yii\\bootstrap\\Collapse;",
+		"description": "Use Collapse class."
+	},
+	"use yii\\bootstrap\\Dropdown": {
+		"prefix": "use yii\\bootstrap\\Dropdown",
+		"body": "use yii\\bootstrap\\Dropdown;",
+		"description": "Use Dropdown class."
+	},
+	"use yii\\bootstrap\\Html": {
+		"prefix": "use yii\\bootstrap\\Html",
+		"body": "use yii\\bootstrap\\Html;",
+		"description": "Use Html class."
+	},
+	"use yii\\bootstrap\\InputWidget": {
+		"prefix": "use yii\\bootstrap\\InputWidget",
+		"body": "use yii\\bootstrap\\InputWidget;",
+		"description": "Use InputWidget class."
+	},
+	"use yii\\bootstrap\\Modal": {
+		"prefix": "use yii\\bootstrap\\Modal",
+		"body": "use yii\\bootstrap\\Modal;",
+		"description": "Use Modal class."
+	},
+	"use yii\\bootstrap\\Nav": {
+		"prefix": "use yii\\bootstrap\\Nav",
+		"body": "use yii\\bootstrap\\Nav;",
+		"description": "Use Nav class."
+	},
+	"use yii\\bootstrap\\NavBar": {
+		"prefix": "use yii\\bootstrap\\NavBar",
+		"body": "use yii\\bootstrap\\NavBar;",
+		"description": "Use NavBar class."
+	},
+	"use yii\\bootstrap\\Progress": {
+		"prefix": "use yii\\bootstrap\\Progress",
+		"body": "use yii\\bootstrap\\Progress;",
+		"description": "Use Progress class."
+	},
+	"use yii\\bootstrap\\Tabs": {
+		"prefix": "use yii\\bootstrap\\Tabs",
+		"body": "use yii\\bootstrap\\Tabs;",
+		"description": "Use Tabs class."
+	},
+	"use yii\\bootstrap\\ToggleButtonGroup": {
+		"prefix": "use yii\\bootstrap\\ToggleButtonGroup",
+		"body": "use yii\\bootstrap\\ToggleButtonGroup;",
+		"description": "Use ToggleButtonGroup class."
+	},
+	"use yii\\bootstrap\\Widget": {
+		"prefix": "use yii\\bootstrap\\Widget",
+		"body": "use yii\\bootstrap\\Widget;",
+		"description": "Use Widget class."
 	}
 }

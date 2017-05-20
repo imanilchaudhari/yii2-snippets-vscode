@@ -1,3 +1,47 @@
 {
-
+    "render": {
+		"prefix": "render",
+		"body": "\\$this->render('${views}', ${\\$options = []});",
+		"description": "Render view file."
+	},
+	"renderPartial": {
+		"prefix": "renderPartial",
+		"body": "\\$this->renderPartial('${views}', ${\\$options = []});",
+		"description": "Render Partial view file."
+	},
+	"renderAjax": {
+		"prefix": "renderAjax",
+		"body": "\\$this->renderAjax('${views}', ${\\$options = []});",
+		"description": "Render Ajax view file."
+	},
+    "asJson": {
+		"prefix": "asJson",
+		"body": "\\$this->asJson(${[]});",
+		"description": "Return as JSON."
+	},
+	"asXml": {
+		"prefix": "asXml",
+		"body": "\\$this->asXml(${[]});",
+		"description": "Return as XML."
+	},
+	"redirect": {
+		"prefix": "redirect",
+		"body": "\\$this->redirect(${[]});",
+		"description": "Redirect page."
+	},
+    "goBack": {
+		"prefix": "goBack",
+		"body": "\\$this->goBack();",
+		"description": "Go back."
+	},
+    "goHome": {
+		"prefix": "goHome",
+		"body": "\\$this->goHome();",
+		"description": "Go Home."
+	},
+    "refresh": {
+		"prefix": "refresh",
+		"body": "\\$this->refresh();",
+		"description": "Refresh page."
+	}
 }
