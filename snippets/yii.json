@@ -6,7 +6,7 @@
 	},
 	"Yii::autoload": {
 		"prefix": "Yii::autoload",
-		"body": "Yii::autoload(${\\$clssName})",
+		"body": "Yii::autoload(\\$${clssName})",
 		"description": "Class autoload loader."
 	},
 	"Yii::beginProfile": {
@@ -16,7 +16,7 @@
 	},
 	"Yii::configure": {
 		"prefix": "Yii::configure",
-		"body": "Yii::configure(${\\$object}, ${\\$properties});",
+		"body": "Yii::configure(\\$${object}, \\$${properties});",
 		"description": "Configures an object with the initial property values."
 	},
 	"Yii::createObject": {
@@ -31,12 +31,12 @@
 	},
 	"Yii::error": {
 		"prefix": "Yii::error",
-		"body": "Yii::error(${\\$message}, ${\\$category = 'application'});",
+		"body": "Yii::error(\\$${message}, \\$${category = 'application'});",
 		"description": "Logs an error message."
 	},
 	"Yii::getAlias": {
 		"prefix": "Yii::getAlias",
-		"body": "Yii::getAlias(${\\$alias}, ${\\$throwException = true});",
+		"body": "Yii::getAlias(\\$${alias}, \\$${throwException = true});",
 		"description": "Translates a path alias into an actual path."
 	},
 	"Yii::getLogger": {
@@ -46,12 +46,12 @@
 	},
 	"Yii::getObjectVars": {
 		"prefix": "Yii::getObjectVars",
-		"body": "Yii::getObjectVars(${\\$object});",
+		"body": "Yii::getObjectVars(\\$${object});",
 		"description": "Returns the public member variables of an object."
 	},
 	"Yii::getRootAlias": {
 		"prefix": "Yii::getRootAlias",
-		"body": "Yii::getRootAlias(${\\$alias});",
+		"body": "Yii::getRootAlias(\\$${alias});",
 		"description": "Returns the root alias part of a given alias."
 	},
 	"Yii::getVersion": {
@@ -61,7 +61,7 @@
 	},
 	"Yii::info": {
 		"prefix": "Yii::info",
-		"body": "Yii::info(${\\$message}, ${\\$category = 'application'});",
+		"body": "Yii::info(\\$${message}, \\$${category = 'application'});",
 		"description": "Logs an informative message."
 	},
 	"Yii::powered": {
@@ -71,27 +71,27 @@
 	},
 	"Yii::setAlias": {
 		"prefix": "Yii::setAlias",
-		"body": "Yii::setAlias(${\\$alias}, ${\\$path});",
+		"body": "Yii::setAlias(\\$${alias}, \\$${path});",
 		"description": "Registers a path alias."
 	},
 	"Yii::setLogger": {
 		"prefix": "Yii::setLogger",
-		"body": "Yii::setLogger(${\\$logger});",
+		"body": "Yii::setLogger(\\$${logger});",
 		"description": "Sets the logger object."
 	},
 	"Yii::t": {
 		"prefix": "Yii::t",
-		"body": "Yii::t(${\\$category}, ${\\$message}, ${\\$params = []}, ${\\$language = null});",
+		"body": "Yii::t(\\$${category}, \\$${message}, \\$${params = []}, \\$${language = null});",
 		"description": "Returns an HTML hyperlink that can be displayed on your Web page showing \"Powered by Yii Framework\" information."
 	},
 	"Yii::trace": {
 		"prefix": "Yii::trace",
-		"body": "Yii::trace(${\\$message}, ${\\$category = 'application'});",
+		"body": "Yii::trace(\\$${message}, \\$${category = 'application'});",
 		"description": "Logs a trace message."
 	},
 	"Yii::warning": {
 		"prefix": "Yii::warning",
-		"body": "Yii::warning(${\\$message}, ${\\$category = 'application'});",
+		"body": "Yii::warning(\\$${message}, \\$${category = 'application'});",
 		"description": "Logs an warning message."
 	}
 }

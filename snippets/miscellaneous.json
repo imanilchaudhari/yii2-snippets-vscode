@@ -29,10 +29,21 @@
         "body": "use ReflectionClass;",
         "description": "Use ReflectionClass"
     },
+    "use Throwable" : {
+    	"prefix": "use Throwable",
+    	"body": "use Throwable",
+    	"description" : "Use Throwable"
+    },
     "use Exception": {
         "prefix": "use Exception",
         "body": "use Exception;",
         "description": "Use Exception"
+    },
+    "use UnexpectedValueException" : {
+
+    },
+    "use RuntimeException" : {
+
     },
 	"Function Header" : {
 		"prefix": "Function Header",
@@ -60,7 +71,7 @@
 	"Foreach Loop": {
         "prefix": "Foreach",
         "body": [
-            "foreach (${\\$array} as ${\\$key} => ${\\$value}):",
+            "foreach (\\$${array} as \\$${key} => \\$${value}):",
             "\t${/** code **/}",
             "endforeach;"
         ],
@@ -69,7 +80,7 @@
     "Do Loop": {
         "prefix": "Foreach",
         "body": [
-            "foreach (${\\$array} as ${\\$key} => ${\\$value}):",
+            "foreach (\\$${array} as \\$${key} => \\$${value}):",
             "\t${/** code **/}",
             "endforeach;"
         ],
@@ -78,7 +89,7 @@
     "Do While Loop": {
         "prefix": "Foreach",
         "body": [
-            "foreach (${\\$array} as ${\\$key} => ${\\$value}):",
+            "foreach (\\$${array} as \\$${key} => \\$${value}):",
             "\t${/** code **/}",
             "endforeach;"
         ],
@@ -88,7 +99,7 @@
         "prefix": "print_r",
         "body": [
 			"echo \"<pre>\";",
-			"print_r(${\\$data});",
+			"print_r(\\$${data});",
 			"echo \"</pre>\";",
             "${exit();}"
         ],

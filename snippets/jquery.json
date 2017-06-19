@@ -1,0 +1,30 @@
+{
+	"js on click" : {
+		"prefix" : "js on click",
+		"body": [
+			"\\$this->register('",
+				"\tjQuery(document).on(\"click\", \"${.class}\", function(ev){",
+					"\t\tev.preventDefault;",
+					"\t\t${//code}",
+				"\t});",
+			"');"
+		],
+		"description": "js on click"
+	},
+	"js on click ajax" : {
+		"prefix" : "js on click ajax",
+		"body": [
+			"\\$this->register('",
+				"\tjQuery(document).on(\"click\", \"${.class}\", function(ev){",
+					"\t\tev.preventDefault;",
+					"\t\t${//code}",
+					"\t\tjQuery.ajax({",
+					"\t\t\turl : \"'.\\yii\\helpers\\Url::to([${route}]).'\",",
+					"\t\t\ttype : \"${get}\"",
+					"\t\t})",
+				"\t});",
+			"');"
+		],
+		"description": "js on click ajax"
+	}
+}
