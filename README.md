@@ -1,9 +1,9 @@
-[![Version](http://vsmarketplacebadge.apphb.com/version/imanilchaudhari.yii2-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=imanilchaudhari.yii2-snippets)
-[![Installs](http://vsmarketplacebadge.apphb.com/installs/imanilchaudhari.yii2-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=imanilchaudhari.yii2-snippets)
+[![Version](https://vsmarketplacebadge.apphb.com/version/imanilchaudhari.yii2-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=imanilchaudhari.yii2-snippets)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs/imanilchaudhari.yii2-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=imanilchaudhari.yii2-snippets)
 [![Ratings](https://vsmarketplacebadge.apphb.com/rating/imanilchaudhari.yii2-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=imanilchaudhari.yii2-snippets)
 [![Dependency Status](https://david-dm.org/imanilchaudhari/yii2-snippets-vscode.svg)](https://david-dm.org/imanilchaudhari/yii2-snippets-vscode)
-[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/imanilchaudhari/yii2-snippets-vscode.svg)](http://isitmaintained.com/project/imanilchaudhari/yii2-snippets-vscode "Average time to resolve an issue")
-[![Percentage of issues still open](http://isitmaintained.com/badge/open/imanilchaudhari/yii2-snippets-vscode.svg)](http://isitmaintained.com/project/imanilchaudhari/yii2-snippets-vscode "Percentage of issues still open")
+[![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/imanilchaudhari/yii2-snippets-vscode.svg)](https://isitmaintained.com/project/imanilchaudhari/yii2-snippets-vscode "Average time to resolve an issue")
+[![Percentage of issues still open](https://isitmaintained.com/badge/open/imanilchaudhari/yii2-snippets-vscode.svg)](https://isitmaintained.com/project/imanilchaudhari/yii2-snippets-vscode "Percentage of issues still open")
 
 ## Yii2 Snippets
 Yii2 snippets for Visual Studio Code.
@@ -29,8 +29,9 @@ Snippets named as the tag without braces
 
 ## Screenshot
 
-![Screenshot](https://github.com/imanilchaudhari/yii2-snippets-vscode/raw/master/images/screenshot1.png)
-![Screenshot](https://github.com/imanilchaudhari/yii2-snippets-vscode/raw/master/images/screenshot2.png)
+![Screenshot](https://github.com/imanilchaudhari/yii2-snippets-vscode/raw/master/images/1.png)
+![Screenshot](https://github.com/imanilchaudhari/yii2-snippets-vscode/raw/master/images/2.png)
+![Screenshot](https://github.com/imanilchaudhari/yii2-snippets-vscode/raw/master/images/3.png)
 
 ## Installation
 

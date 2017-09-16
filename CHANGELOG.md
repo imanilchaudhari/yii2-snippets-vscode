@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.0.10 (September 16, 2017)
+- Fixed minor bugs
+- Added: usefull php functions
 ## 0.0.9 (June 20, 2017)
 - Fixed minor bugs
 - Added: usefull php functions

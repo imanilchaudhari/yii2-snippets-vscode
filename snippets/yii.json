@@ -31,12 +31,12 @@
 	},
 	"Yii::error": {
 		"prefix": "Yii::error",
-		"body": "Yii::error(\\$${message}, \\$${category = 'application'});",
+		"body": "Yii::error(\\$${1:message}, \\$${2:category = ${3:application}});",
 		"description": "Logs an error message."
 	},
 	"Yii::getAlias": {
 		"prefix": "Yii::getAlias",
-		"body": "Yii::getAlias(\\$${alias}, \\$${throwException = true});",
+		"body": "Yii::getAlias(\\$${1:alias}, \\$${2:throwException = ${3|true, false|}});",
 		"description": "Translates a path alias into an actual path."
 	},
 	"Yii::getLogger": {
@@ -61,7 +61,7 @@
 	},
 	"Yii::info": {
 		"prefix": "Yii::info",
-		"body": "Yii::info(\\$${message}, \\$${category = 'application'});",
+		"body": "Yii::info(\\$${1:message}, \\$${2:category = ${3:application}});",
 		"description": "Logs an informative message."
 	},
 	"Yii::powered": {
@@ -81,17 +81,17 @@
 	},
 	"Yii::t": {
 		"prefix": "Yii::t",
-		"body": "Yii::t(\\$${category}, \\$${message}, \\$${params = []}, \\$${language = null});",
+		"body": "Yii::t(\\$${1:category}, \\$${2:message});",
 		"description": "Returns an HTML hyperlink that can be displayed on your Web page showing \"Powered by Yii Framework\" information."
 	},
 	"Yii::trace": {
 		"prefix": "Yii::trace",
-		"body": "Yii::trace(\\$${message}, \\$${category = 'application'});",
+		"body": "Yii::trace(\\$${1:message}, \\$${2:category = ${3:application}});",
 		"description": "Logs a trace message."
 	},
 	"Yii::warning": {
 		"prefix": "Yii::warning",
-		"body": "Yii::warning(\\$${message}, \\$${category = 'application'});",
+		"body": "Yii::warning(\\$${1:message}, \\$${2:category = ${3:application}});",
 		"description": "Logs an warning message."
 	}
 }
