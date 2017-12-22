@@ -31,7 +31,7 @@
 	},
 	"Inflector::ordinalize": {
 		"prefix": "Inflector::ordinalize",
-		"body": "Inflector::ordinalize(\\$${number})$3",
+		"body": "Inflector::ordinalize(\\$${1:number})$2",
 		"description": "Ordinalize number."
 	},
 	"Inflector::pluralize": {
@@ -46,7 +46,7 @@
 	},
 	"Inflector::singularize": {
 		"prefix": "Inflector::singularize",
-		"body": "Inflector::singularize(\\$${word})$3",
+		"body": "Inflector::singularize(\\$${1:word})$2",
 		"description": "Singularize word."
 	},
 	"Inflector::slug": {
@@ -56,7 +56,7 @@
 	},
 	"Inflector::tableize": {
 		"prefix": "Inflector::tableize",
-		"body": "Inflector::tableize(\\$${className})$3",
+		"body": "Inflector::tableize(\\$${1:className})$2",
 		"description": "Creats a tableize string."
 	},
 	"Inflector::titleize": {
@@ -66,17 +66,17 @@
 	},
 	"Inflector::transliterate": {
 		"prefix": "Inflector::transliterate",
-		"body": "Inflector::transliterate(\\$${1:string}, \\$${2:transliterator ${5|true, false|}})$3",
+		"body": "Inflector::transliterate(\\$${1:string}, \\$${2:transliterator ${3|true, false|}})$4",
 		"description": "Creats a transliterate string."
 	},
 	"Inflector::underscore": {
 		"prefix": "Inflector::underscore",
-		"body": "Inflector::underscore(\\$${words})$3",
+		"body": "Inflector::underscore(\\$${1:words})$2",
 		"description": "Creats a underscore string."
 	},
 	"Inflector::variablize": {
 		"prefix": "Inflector::variablize",
-		"body": "Inflector::variablize(\\$${word})$3",
+		"body": "Inflector::variablize(\\$${1:word})$2",
 		"description": "Creats a variablize string."
 	}
 }

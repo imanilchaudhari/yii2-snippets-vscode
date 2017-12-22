@@ -46,12 +46,12 @@
 	},
 	"Yii::getObjectVars": {
 		"prefix": "Yii::getObjectVars",
-		"body": "Yii::getObjectVars(\\$${object});",
+		"body": "Yii::getObjectVars(\\$${1:object});",
 		"description": "Returns the public member variables of an object."
 	},
 	"Yii::getRootAlias": {
 		"prefix": "Yii::getRootAlias",
-		"body": "Yii::getRootAlias(\\$${alias});",
+		"body": "Yii::getRootAlias(\\$${1:alias});",
 		"description": "Returns the root alias part of a given alias."
 	},
 	"Yii::getVersion": {
@@ -71,12 +71,12 @@
 	},
 	"Yii::setAlias": {
 		"prefix": "Yii::setAlias",
-		"body": "Yii::setAlias(\\$${alias}, \\$${path});",
+		"body": "Yii::setAlias(\\$${1:alias}, \\$${2:path});",
 		"description": "Registers a path alias."
 	},
 	"Yii::setLogger": {
 		"prefix": "Yii::setLogger",
-		"body": "Yii::setLogger(\\$${logger});",
+		"body": "Yii::setLogger(\\$${1:logger});",
 		"description": "Sets the logger object."
 	},
 	"Yii::t": {

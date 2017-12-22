@@ -1,42 +1,42 @@
 {
 	"Html::a": {
 		"prefix": "Html::a",
-		"body": "Html::a(\\$${text}, \\$${url}, \\$${options = []})$3",
+		"body": "Html::a(\\$${1:text}, \\$${2:url}, \\$${3:options = []})$4",
 		"description": "Generates a hyperlink tag."
 	},
 	"Html::activeBooleanInput": {
 		"prefix": "Html::activeBooleanInput",
-		"body": "Html::activeBooleanInput(\\$${type}, \\$${model},  \\$${attribute}, \\$${options = []})$3",
+		"body": "Html::activeBooleanInput(\\$${1:type}, \\$${2:model},  \\$${3:attribute}, \\$${4:options = []})$5",
 		"description": "Generates a boolean input This method is mainly called by activeCheckbox() and activeRadio()."
 	},
 	"Html::activeCheckbox": {
 		"prefix": "Html::activeCheckbox",
-		"body": "Html::activeCheckbox(\\$${model},  \\$${attribute}, \\$${options = []})$3",
+		"body": "Html::activeCheckbox(\\$${1:model},  \\$${2:attribute}, \\$${3:options = []})$4",
 		"description": "Generates a checkbox tag together with a label for the given model attribute."
 	},
 	"Html::activeCheckboxList": {
 		"prefix": "Html::activeCheckboxList",
-		"body": "Html::activeCheckboxList(\\$${model}, \\$${attribute}, \\$${items}, \\$${options = []})$3",
+		"body": "Html::activeCheckboxList(\\$${1:model}, \\$${2:attribute}, \\$${3:items}, \\$${4:options = []})$5",
 		"description": "Generates a list of checkboxes."
 	},
 	"Html::activeDropDownList": {
 		"prefix": "Html::activeDropDownList",
-		"body": "Html::activeDropDownList(\\$${model}, \\$${attribute}, \\$${items}, \\$${options = []})$3",
+		"body": "Html::activeDropDownList(\\$${1:model}, \\$${2:attribute}, \\$${3:items}, \\$${4:options = []})$5",
 		"description": "Generates a drop-down list for the given model attribute."
 	},
 	"Html::activeFileInput": {
 		"prefix": "Html::activeFileInput",
-		"body": "Html::activeFileInput(\\$${model}, \\$${attribute}, \\$${options = []})$3",
+		"body": "Html::activeFileInput(\\$${1:model}, \\$${2:attribute}, \\$${3:options = []})$4",
 		"description": "Generates a file input tag for the given model attribute."
 	},
 	"Html::activeHiddenInput": {
 		"prefix": "Html::activeHiddenInput",
-		"body": "Html::activeHiddenInput(\\$${model}, \\$${attribute}, \\$${options = []})$3",
+		"body": "Html::activeHiddenInput(\\$${1:model}, \\$${2:attribute}, \\$${3:options = []})$4",
 		"description": "Generates a hidden input tag for the given model attribute."
 	},
 	"Html::activeHint": {
 		"prefix": "Html::activeHint",
-		"body": "Html::activeHint(\\$${model}, \\$${attribute}, \\$${options = []})$3",
+		"body": "Html::activeHint(\\$${1:model}, \\$${2:attribute}, \\$${3:options = []})$4",
 		"description": "Generates a hint tag for the given model attribute."
 	},
 	"Html::activeInput": {
@@ -131,7 +131,7 @@
 	},
 	"Html::cssFile": {
 		"prefix": "Html::cssFile",
-		"body": "Html::cssFile(\\$${url}, \\$${options = []})$3",
+		"body": "Html::cssFile(\\$${1:url}, \\$${1:options = []})$3",
 		"description": "Generates a link tag that refers to an external CSS file."
 	},
 	"Html::cssStyleFromArray": {
@@ -146,17 +146,17 @@
 	},
 	"Html::decode": {
 		"prefix": "Html::decode",
-		"body": "Html::decode($content})$3",
+		"body": "Html::decode(\\$${1:content})$2",
 		"description": "Decodes special HTML entities back to the corresponding characters."
 	},
 	"Html::dropDownList": {
 		"prefix": "Html::dropDownList",
-		"body": "Html::dropDownList($name}, \\$${selection = null}, \\$${items = []}, \\$${options = []})$3",
+		"body": "Html::dropDownList(\\$${1:name}, \\$${2:selection = null}, \\$${3:items = []}, \\$${4:options = []})$5",
 		"description": "Generates a drop-down list."
 	},
 	"Html::encode": {
 		"prefix": "Html::encode",
-		"body": "Html::encode($content}, \\$${doubleEncode = true})$3",
+		"body": "Html::encode(\\$${1:content}, \\$${2:doubleEncode = true})$3",
 		"description": "Encodes special characters into HTML entities."
 	},
 	"Html::endForm": {
@@ -166,12 +166,12 @@
 	},
 	"Html::endTag": {
 		"prefix": "Html::endTag",
-		"body": "Html::endTag($name})$3",
+		"body": "Html::endTag(\\$${1:name})$2",
 		"description": "Generates an end tag."
 	},
 	"Html::error": {
 		"prefix": "Html::error",
-		"body": "Html::error($model, \\$${attribute}, \\$${options = []})$3",
+		"body": "Html::error(\\$${1:model}, \\$${2:attribute}, \\$${3:options = []})$4",
 		"description": "Generates a tag that contains the first validation error of the specified model attribute."
 	}
 }

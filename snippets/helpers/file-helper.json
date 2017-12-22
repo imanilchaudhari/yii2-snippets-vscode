@@ -6,7 +6,7 @@
 	},
 	"FileHelper::createDirectory": {
 		"prefix": "FileHelper::createDirectory",
-		"body": "FileHelper::createDirectory(\\$${path}, \\$${mode = 509}, \\$${recursive = true})$3",
+		"body": "FileHelper::createDirectory(\\$${path}, \\$${mode = 509}, \\$${recursive = ${5|true, false|}})$3",
 		"description": "Creates a new directory."
 	},
 	"FileHelper::filterPath": {
@@ -26,7 +26,7 @@
 	},
 	"FileHelper::getMimeType": {
 		"prefix": "FileHelper::getMimeType",
-		"body": "FileHelper::getMimeType(\\$${file}, \\$${magicFile = null}, \\$${checkedExtension = true})$3",
+		"body": "FileHelper::getMimeType(\\$${file}, \\$${magicFile = null}, \\$${checkedExtension = ${5|true, false|}})$3",
 		"description": "Determines the MIME type of the specified file."
 	},
 	"FileHelper::getMimeTypeByExtension": {
@@ -36,12 +36,12 @@
 	},
 	"FileHelper::loadMimeTypes": {
 		"prefix": "FileHelper::loadMimeTypes",
-		"body": "FileHelper::loadMimeTypes(\\$${magicFile})$3",
+		"body": "FileHelper::loadMimeTypes(\\$${1:magicFile})$2",
 		"description": "Loads MIME types from the specified file."
 	},
 	"FileHelper::localize": {
 		"prefix": "FileHelper::localize",
-		"body": "FileHelper::localize(\\$${file}, \\$${language = null}, \\$${sourceLanguage = null})$3",
+		"body": "FileHelper::localize(\\$${1:file}, \\$${2:language = null}, \\$${3:sourceLanguage = null})$4",
 		"description": "Returns the localized version of a specified file."
 	},
 	"FileHelper::normalizePath": {
