@@ -1,7 +1,17 @@
 {
-    "->where()": {
-		"prefix": "->where",
-		"body": "->where(${[]})$3",
-		"description": "Where condition."
-	}
+  "->select()": {
+    "prefix": "->select()",
+    "body": "->select(${1:select})$2",
+    "description": "Select condition"
+  },
+  "->where()": {
+    "prefix": "->where",
+    "body": "->where(${1:condition})$2",
+    "description": "Where condition"
+  },
+  "->join()": {
+    "prefix": "->join",
+    "body": "->join(${1:tableName}, ${2:on})$3",
+    "description": "Join condition"
+  }
 }

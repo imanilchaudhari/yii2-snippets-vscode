@@ -1,3 +1,22 @@
 {
-
+  "::find()": {
+    "prefix": "::find",
+    "body": "::find()",
+    "description": "Start query"
+  },
+  "::findOne()": {
+    "prefix": "::findOne",
+    "body": "::findOne(${1:condition})$2",
+    "description": "Start query like ::find()->condition($condition)->one()"
+  },
+  "::findAll()": {
+    "prefix": "::findAll",
+    "body": "::findAll(${1:condition})$2",
+    "description": "Start query like ::find()->condition($condition)->all()"
+  },
+  "::deleteAll()": {
+    "prefix": "::deleteAll",
+    "body": "::deleteAll(${1:condition})",
+    "description": "Make delete query"
+  }
 }

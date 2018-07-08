@@ -1,3 +1,162 @@
 {
-
+  "->addColumn()": {
+    "prefix": "->addColumn",
+    "body": "->addColumn(${1:tableName}, ${2:columnName}, ${3:columnType})$4",
+    "description": "Add new DB column"
+  },
+  "->addCommentOnColumn()": {
+    "prefix": "->addCommentOnColumn",
+    "body": "->addCommentOnColumn(${1:tableName}, ${2:columnName}, ${3:comment})$4",
+    "description": "Adding comment to column"
+  },
+  "->addCommentOnTable()": {
+    "prefix": "->addCommentOnTable",
+    "body": "->addCommentOnTable(${1:tableName}, ${2:comment})$3",
+    "description": "Adding comment to column"
+  },
+  "->addForeignKey()": {
+    "prefix": "->addForeignKey",
+    "body": "->addForeignKey(${1:name}, ${2:tableName}, ${3:columns}, ${4:refTable}, ${5:refColumns}, ${6:delete}, ${7:update})$8",
+    "description": "Adding a foreign key constraint to an existing table"
+  },
+  "->addPrimaryKey()": {
+    "prefix": "->addPrimaryKey",
+    "body": "->addPrimaryKey(${1:name}, ${2:tableName}, ${3:columns})$4",
+    "description": "Creating a primary key"
+  },
+  "->alterColumn()": {
+    "prefix": "->alterColumn",
+    "body": "->alterColumn(${1:tableName}, ${2:column}, ${3:type})$4",
+    "description": "Creating a primary key"
+  },
+  "->batchInsert()": {
+    "prefix": "->batchInsert",
+    "body": "->batchInsert(${1:tableName}, ${2:columns}, ${3:rows})$4",
+    "description": "Creates and executes a batch INSERT SQL statement"
+  },
+  "->beginCommand()": {
+    "prefix": "->beginCommand",
+    "body": "->beginCommand(${1:description})$2",
+    "description": "Prepares for a command to be executed, and outputs to the console"
+  },
+  "->createIndex()": {
+    "prefix": "->createIndex",
+    "body": "->createIndex(${1:name}, ${2:tableName}, ${3:columns}, ${4:unique})$5",
+    "description": "Creating a new index"
+  },
+  "->createTable()": {
+    "prefix": "->createTable",
+    "body": "->createTable(${1:tableName}, ${2:columns}, ${3:options})$4",
+    "description": "Creating a new DB table"
+  },
+  "->delete()": {
+    "prefix": "->delete",
+    "body": "->delete(${1:tableName}, ${2:condition}, ${3:params})$4",
+    "description": "DELETE SQL statement"
+  },
+  "->down()": {
+    "prefix": "->down",
+    "body": "->down()$1",
+    "description": "Removing this migration"
+  },
+  "->dropColumn()": {
+    "prefix": "->dropColumn",
+    "body": "->dropColumn(${1:tableName}, ${2:columnName})$3",
+    "description": "Dropping a DB column"
+  },
+  "->dropCommentFromColumn()": {
+    "prefix": "->dropCommentFromColumn",
+    "body": "->dropCommentFromColumn(${1:tableName}, ${2:columnName})$3",
+    "description": "Dropping comment from column"
+  },
+  "->dropCommentFromTable()": {
+    "prefix": "->dropCommentFromTable",
+    "body": "->dropCommentFromTable(${1:tableName})$2",
+    "description": "Dropping comment from table"
+  },
+  "->dropForeignKey()": {
+    "prefix": "->dropForeignKey",
+    "body": "->dropForeignKey(${1:name}, ${2:tableName})$3",
+    "description": "Dropping comment from table"
+  },
+  "->dropIndex()": {
+    "prefix": "->dropIndex",
+    "body": "->dropIndex(${1:name}, ${2:tableName})$3",
+    "description": "Dropping an index"
+  },
+  "->dropPrimaryKey()": {
+    "prefix": "->dropPrimaryKey",
+    "body": "->dropPrimaryKey(${1:name}, ${2:tableName})$3",
+    "description": "Dropping a primary key"
+  },
+  "->dropTable()": {
+    "prefix": "->dropTable",
+    "body": "->dropTable(${1:tableName})$2",
+    "description": "Dropping a DB table"
+  },
+  "->endCommand()": {
+    "prefix": "->endCommand",
+    "body": "->endCommand(${1:time})$2",
+    "description": "Finalizes after the command has been executed, and outputs to the console the time elapsed"
+  },
+  "->execute()": {
+    "prefix": "->execute",
+    "body": "->execute(${1:sql}, ${2:params})$3",
+    "description": "Execute SQL statement using $db"
+  },
+  "->getDb()": {
+    "prefix": "->getDb",
+    "body": "->getDb()$1",
+    "description": "Get DB"
+  },
+  "->init()": {
+    "prefix": "->init",
+    "body": "->init()$1",
+    "description": "This method will set $db to be the 'db' application component, if it is null"
+  },
+  "->insert()": {
+    "prefix": "->insert",
+    "body": "->insert(${1:tableName}, ${2:columns})$3",
+    "description": "The method will properly escape the column names, and bind the values to be inserted"
+  },
+  "->renameColumn()": {
+    "prefix": "->renameColumn",
+    "body": "->renameColumn(${1:tableName}, ${2:column}, ${3:newName})$4",
+    "description": "Renaming a column"
+  },
+  "->renameTable()": {
+    "prefix": "->renameTable",
+    "body": "->renameTable(${1:tableName}, ${2:newName})$3",
+    "description": "Renaming a table"
+  },
+  "->safeDown()": {
+    "prefix": "->safeDown",
+    "body": "->safeDown()$1",
+    "description": "When removing migration"
+  },
+  "->safeUp()": {
+    "prefix": "->safeUp",
+    "body": "->safeUp()$1",
+    "description": "When applying migration"
+  },
+  "->truncateTable()": {
+    "prefix": "->truncateTable",
+    "body": "->truncateTable(${1:tableName})$2",
+    "description": "Truncating a DB table"
+  },
+  "->up()": {
+    "prefix": "->up",
+    "body": "->up()$1",
+    "description": "When applying this migration"
+  },
+  "->update()": {
+    "prefix": "->update",
+    "body": "->update(${1:tableName}, ${2:columns}, ${3:condition}, ${4:params})$5",
+    "description": "Properly escape the column names and bind the values to be updated"
+  },
+  "->upsert()": {
+    "prefix": "->update",
+    "body": "->update(${1:tableName}, ${2:insertColumns}, ${3:updateColumns}, ${4:params})$5",
+    "description": "Creates and executes a command to insert rows into a database table if they do not already exist (matching unique constraints), or update them if they do"
+  }
 }
