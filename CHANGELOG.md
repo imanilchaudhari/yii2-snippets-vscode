@@ -1,5 +1,13 @@
 # Change Log
 
+## 0.0.12 (July 8, 2018)
+
+- Fixed: Readme and Changelog with MarkDown Lint
+- Added: __.editorconfig__ file. Add rules for __*.json__ files
+- Added: __db__->*migration.json* snippets (all functions from [yii2 doc](https://www.yiiframework.com/doc/api/2.0/yii-db-migration))
+- Added: __db__->*active-record.json* snippets (some necessary functions)
+- Added: __db__->*query.json* snippets (some necessary functions)
+
 ## 0.0.10 (September 16, 2017)
 
 - Fixed minor bugs
@@ -44,11 +52,3 @@
 ## 0.0.1 (October 28, 2016)
 
 - Initial release of Yii2 VS Code snippets
-
-## 0.0.12 (July 8, 2018)
-
-- Fixed: Readme and Changelog with MarkDown Lint
-- Added: __.editorconfig__ file. Add rules for __*.json__ files
-- Added: __db__->*migration.json* snippets (all functions from [yii2 doc](https://www.yiiframework.com/doc/api/2.0/yii-db-migration))
-- Added: __db__->*active-record.json* snippets (some necessary functions)
-- Added: __db__->*query.json* snippets (some necessary functions)
