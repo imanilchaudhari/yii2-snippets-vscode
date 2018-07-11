@@ -1,37 +1,37 @@
 {
 	"ArrayHelper::filter": {
 		"prefix": "ArrayHelper::filter",
-		"body": "ArrayHelper::filter(\\$${array}, \\$${filters})$3",
+		"body": "ArrayHelper::filter(\\$${1:array}, \\$${2:filters})$3",
 		"description": "Filters array according to rules specified."
 	},
 	"ArrayHelper::getColumn()": {
 		"prefix": "ArrayHelper::getColumn()",
-		"body": "ArrayHelper::getColumn(\\$${array},\\$${name}, \\$${keepKeys = true})$3",
+		"body": "ArrayHelper::getColumn(\\$${1:array},\\$${2:name}, \\$${3:keepKeys = ${4|true, false|}})$5",
 		"description": "Returns the values of a specified column in an array."
 	},
 	"ArrayHelper::getValue": {
 		"prefix": "ArrayHelper::getValue",
-		"body": "ArrayHelper::getValue(\\$${array},\\$${key}, \\$${default = null})$3",
+		"body": "ArrayHelper::getValue(\\$${1:array},\\$${2:key}, \\$${3:default = ${4|true, false|}})$5",
 		"description": "Retrieves the value of an array element or object property with the given key or property name."
 	},
 	"ArrayHelper::htmlDecode()": {
 		"prefix": "ArrayHelper::htmlDecode()",
-		"body": "ArrayHelper::htmlDecode(\\$${data}, \\$${valuesOnly = true})$3",
+		"body": "ArrayHelper::htmlDecode(\\$${1:data}, \\$${2:valuesOnly = ${3|true, false|}})$4",
 		"description": "Decodes HTML entities into the corresponding characters in an array of strings."
 	},
 	"ArrayHelper::htmlEncode()": {
 		"prefix": "ArrayHelper::htmlEncode()",
-		"body": "ArrayHelper::htmlEncode(\\$${data}, \\$${valuesOnly = true}, \\$${charset = null})$3",
+		"body": "ArrayHelper::htmlEncode(\\$${1:data}, \\$${2:valuesOnly = ${3|true, false|}}, \\$${4:charset = ${5|null|}})$6",
 		"description": "Encodes HTML entities into the corresponding characters in an array of strings."
 	},
 	"ArrayHelper::index()": {
 		"prefix": "ArrayHelper::index()",
-		"body": "ArrayHelper::index(\\$${array}, ${function($element){}})$3",
+		"body": "ArrayHelper::index(\\$${1:array}, ${function($element){}})$3",
 		"description": "Indexes and/or groups the array according to a specified key."
 	},
 	"ArrayHelper::isAssociative()": {
 		"prefix": "ArrayHelper::isAssociative()",
-		"body": "ArrayHelper::isAssociative(\\$${array}, \\$${allstring = true})$3",
+		"body": "ArrayHelper::isAssociative(\\$${1:array}, \\$${2:allstring = ${3|true, false|}})$4",
 		"description": "Returns a value indicating whether the given array is an associative array."
 	},
 	"ArrayHelper::isIn()": {
