@@ -67,7 +67,7 @@
 	"Yii::powered": {
 		"prefix": "Yii::powered",
 		"body": "Yii::powered();",
-		"description": "Logs an poweredrmative message."
+		"description": "Returns an HTML hyperlink that can be displayed on your Web page showing \"Powered by Yii Framework\" information."
 	},
 	"Yii::setAlias": {
 		"prefix": "Yii::setAlias",
@@ -82,7 +82,7 @@
 	"Yii::t": {
 		"prefix": "Yii::t",
 		"body": "Yii::t(\\$${1:category}, \\$${2:message});",
-		"description": "Returns an HTML hyperlink that can be displayed on your Web page showing \"Powered by Yii Framework\" information."
+		"description": "Create a translatable string."
 	},
 	"Yii::trace": {
 		"prefix": "Yii::trace",
