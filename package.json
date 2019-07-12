@@ -2,7 +2,7 @@
     "name": "yii2-snippets",
     "displayName": "Yii2 Snippets",
     "description": "Yii2 snippets for Visual Studio Code",
-    "version": "0.0.12",
+    "version": "0.1.2",
     "publisher": "imanilchaudhari",
     "keywords": [
         "yii2",

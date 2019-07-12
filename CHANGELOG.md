@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.0.13 (July 12, 2019)
+
+- Fixed: descriptions for ::t and ::powered
+
 ## 0.0.12 (July 8, 2018)
 
 - Fixed: Readme and Changelog with MarkDown Lint
