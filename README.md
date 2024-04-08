@@ -1,9 +1,8 @@
 # Yii2 Snippets
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/imanilchaudhari.yii2-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=imanilchaudhari.yii2-snippets)
-[![Installs](https://vsmarketplacebadge.apphb.com/installs/imanilchaudhari.yii2-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=imanilchaudhari.yii2-snippets)
-[![Ratings](https://vsmarketplacebadge.apphb.com/rating/imanilchaudhari.yii2-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=imanilchaudhari.yii2-snippets)
-[![Dependency Status](https://david-dm.org/imanilchaudhari/yii2-snippets-vscode.svg)](https://david-dm.org/imanilchaudhari/yii2-snippets-vscode)
+[![Version](https://vsmarketplacebadges.dev/version/imanilchaudhari.yii2-snippets.svg?&colorB=orange)](https://marketplace.visualstudio.com/items?itemName=imanilchaudhari.yii2-snippets)
+[![Installs](https://vsmarketplacebadges.dev/installs/imanilchaudhari.yii2-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=imanilchaudhari.yii2-snippets)
+[![Ratings](https://vsmarketplacebadges.dev/rating-short/imanilchaudhari.yii2-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=imanilchaudhari.yii2-snippets)
 [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/imanilchaudhari/yii2-snippets-vscode.svg)](https://isitmaintained.com/project/imanilchaudhari/yii2-snippets-vscode "Average time to resolve an issue")
 [![Percentage of issues still open](https://isitmaintained.com/badge/open/imanilchaudhari/yii2-snippets-vscode.svg)](https://isitmaintained.com/project/imanilchaudhari/yii2-snippets-vscode "Percentage of issues still open")
 
