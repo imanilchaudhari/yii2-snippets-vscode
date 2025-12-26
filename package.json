@@ -2,7 +2,7 @@
     "name": "yii2-snippets",
     "displayName": "Yii2 Snippets",
     "description": "Yii2 snippets for Visual Studio Code",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "publisher": "imanilchaudhari",
     "keywords": [
         "yii2",
@@ -12,7 +12,7 @@
     "author": {
         "name": "Anil Chaudhari",
         "email": "imanilchaudhari@outlook.com",
-        "url": "http://anilchaudhari.com.np"
+        "url": "https://github.com/imanilchaudhari"
     },
     "homepage": "https://github.com/imanilchaudhari/yii2-snippets-vscode",
     "bugs": {
@@ -25,7 +25,7 @@
     "engines": {
         "vscode": "^1.5.0"
     },
-    "icon": "images/icon.png",
+    "icon": "assets/icon.png",
     "galleryBanner": {
         "color": "#1E81C1",
         "theme": "light"

@@ -1,9 +1,9 @@
 # Yii2 Snippets
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/imanilchaudhari.yii2-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=imanilchaudhari.yii2-snippets)
-[![Installs](https://vsmarketplacebadge.apphb.com/installs/imanilchaudhari.yii2-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=imanilchaudhari.yii2-snippets)
-[![Ratings](https://vsmarketplacebadge.apphb.com/rating/imanilchaudhari.yii2-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=imanilchaudhari.yii2-snippets)
-[![Dependency Status](https://david-dm.org/imanilchaudhari/yii2-snippets-vscode.svg)](https://david-dm.org/imanilchaudhari/yii2-snippets-vscode)
+[![Version](https://raster.shields.io/visual-studio-marketplace/v/imanilchaudhari.yii2-snippets?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=imanilchaudhari.yii2-snippets)
+[![Installs](https://raster.shields.io/visual-studio-marketplace/i/imanilchaudhari.yii2-snippets?style=flat-square
+)](https://marketplace.visualstudio.com/items?itemName=imanilchaudhari.yii2-snippets)
+[![Ratings](https://raster.shields.io/visual-studio-marketplace/r/imanilchaudhari.yii2-snippets?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=imanilchaudhari.yii2-snippets)
 [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/imanilchaudhari/yii2-snippets-vscode.svg)](https://isitmaintained.com/project/imanilchaudhari/yii2-snippets-vscode "Average time to resolve an issue")
 [![Percentage of issues still open](https://isitmaintained.com/badge/open/imanilchaudhari/yii2-snippets-vscode.svg)](https://isitmaintained.com/project/imanilchaudhari/yii2-snippets-vscode "Percentage of issues still open")
 
@@ -34,9 +34,9 @@ Snippets named as the tag without braces
 
 ## Screenshot
 
-![Screenshot](https://github.com/imanilchaudhari/yii2-snippets-vscode/raw/master/images/1.png)
-![Screenshot](https://github.com/imanilchaudhari/yii2-snippets-vscode/raw/master/images/2.png)
-![Screenshot](https://github.com/imanilchaudhari/yii2-snippets-vscode/raw/master/images/3.png)
+![Screenshot](https://github.com/imanilchaudhari/yii2-snippets-vscode/raw/master/assets/img/1.png)
+![Screenshot](https://github.com/imanilchaudhari/yii2-snippets-vscode/raw/master/assets/img/2.png)
+![Screenshot](https://github.com/imanilchaudhari/yii2-snippets-vscode/raw/master/assets/img/3.png)
 
 ## Installation
 

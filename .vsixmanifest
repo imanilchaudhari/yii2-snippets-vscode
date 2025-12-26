@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Language="en-US" Id="yii2-snippets" Version="0.1.2" Publisher="imanilchaudhari"/>
+    <Identity Language="en-US" Id="yii2-snippets" Version="0.1.3" Publisher="imanilchaudhari"/>
     <DisplayName>Yii2 Snippets</DisplayName>
     <Description xml:space="preserve">Yii2 snippets for Visual Studio Code</Description>
     <Tags>yii2,snippet,yii2 snippets</Tags>
@@ -11,7 +11,7 @@
     <Properties>
       <Property Id="Microsoft.VisualStudio.Code.Engine" Value="^1.5.0" />
       <Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value="" />
-      
+
       <Property Id="Microsoft.VisualStudio.Services.Links.Support" Value="https://github.com/imanilchaudhari/yii2-snippets-vscode/issues" />
       <Property Id="Microsoft.VisualStudio.Services.Links.Learn" Value="https://github.com/imanilchaudhari/yii2-snippets-vscode" />
       <Property Id="Microsoft.VisualStudio.Services.Branding.Color" Value="#1E81C1" />
@@ -19,7 +19,7 @@
       <Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true" />
     </Properties>
     <License>extension/LICENSE.txt</License>
-    <Icon>extension/images/icon.png</Icon>
+    <Icon>extension/assets/icon.png</Icon>
   </Metadata>
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Code"/>
@@ -29,6 +29,6 @@
     <Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="extension/package.json" Addressable="true" />
     <Asset Type="Microsoft.VisualStudio.Services.Content.Details" Path="extension/README.md" Addressable="true" />
     <Asset Type="Microsoft.VisualStudio.Services.Content.License" Path="extension/LICENSE.txt" Addressable="true" />
-    <Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="extension/images/icon.png" Addressable="true" />
+    <Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="extension/assets/icon.png" Addressable="true" />
   </Assets>
 </PackageManifest>
